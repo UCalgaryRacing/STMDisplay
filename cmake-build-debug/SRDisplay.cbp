@@ -188,6 +188,9 @@
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
@@ -204,6 +207,12 @@
 			<Option target="SRDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
@@ -236,6 +245,9 @@
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
@@ -249,6 +261,12 @@
 			<Option target="SRDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c">
+			<Option target="SRDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c">
 			<Option target="SRDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMDisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
