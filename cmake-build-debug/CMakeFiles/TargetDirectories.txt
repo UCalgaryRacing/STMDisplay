@@ -1,0 +1,3 @@
+C:/Users/arham/STMdisplay/cmake-build-debug/CMakeFiles/STMDisplay.elf.dir
+C:/Users/arham/STMdisplay/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/arham/STMdisplay/cmake-build-debug/CMakeFiles/rebuild_cache.dir

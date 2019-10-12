@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj"
+  "CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj"
+  "STMDisplay.elf"
+  "STMDisplay.elf.manifest"
+  "STMDisplay.elf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/STMDisplay.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
