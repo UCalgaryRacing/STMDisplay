@@ -3,9 +3,9 @@
 <title>Static Call Graph - [STMdisplay\STMdisplay.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image STMdisplay\STMdisplay.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6120001: Last Updated: Sat Oct 12 14:31:50 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6120001: Last Updated: Sat Oct 12 16:10:01 2019
 <BR><P>
-<H3>Maximum Stack Usage =        320 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        312 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 <P>
@@ -451,8 +451,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
 </UL>
 
-<P><STRONG><a name="[a4]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
+<P><STRONG><a name="[a3]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
 </UL>
 
 <P><STRONG><a name="[cf]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
@@ -472,14 +472,14 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
-<P><STRONG><a name="[9b]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<P><STRONG><a name="[9a]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_MspInit
-<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_MspInit
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_MspInit
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
 </UL>
 
 <P><STRONG><a name="[d3]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
@@ -533,14 +533,6 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayChar
 </UL>
-<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayStringAtLine
-</UL>
-
-<P><STRONG><a name="[80]"></a>BSP_LCD_DisplayStringAtLine</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_DisplayStringAtLine))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = BSP_LCD_DisplayStringAtLine &rArr; BSP_LCD_DisplayStringAt &rArr; BSP_LCD_DisplayChar &rArr; BSP_LCD_DrawPixel
-</UL>
-<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayStringAt
-</UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
@@ -550,30 +542,30 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayChar
 </UL>
 
-<P><STRONG><a name="[81]"></a>BSP_LCD_Init</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_Init))
+<P><STRONG><a name="[80]"></a>BSP_LCD_Init</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = BSP_LCD_Init &rArr; BSP_SDRAM_Init &rArr; HAL_SDRAM_Init &rArr; HAL_SDRAM_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_MspInit
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_MspInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[86]"></a>BSP_LCD_LayerDefaultInit</STRONG> (Thumb, 136 bytes, Stack size 72 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_LayerDefaultInit))
+<P><STRONG><a name="[85]"></a>BSP_LCD_LayerDefaultInit</STRONG> (Thumb, 136 bytes, Stack size 72 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_LayerDefaultInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = BSP_LCD_LayerDefaultInit &rArr; HAL_LTDC_ConfigLayer &rArr; LTDC_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_EnableDither
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_EnableDither
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[83]"></a>BSP_LCD_MspInit</STRONG> (Thumb, 312 bytes, Stack size 40 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_MspInit))
+<P><STRONG><a name="[82]"></a>BSP_LCD_MspInit</STRONG> (Thumb, 312 bytes, Stack size 40 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = BSP_LCD_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
 </UL>
 
 <P><STRONG><a name="[c6]"></a>BSP_LCD_SelectLayer</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f429i_discovery_lcd.o(.text.BSP_LCD_SelectLayer))
@@ -584,34 +576,34 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[85]"></a>BSP_SDRAM_Init</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_Init))
+<P><STRONG><a name="[84]"></a>BSP_SDRAM_Init</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = BSP_SDRAM_Init &rArr; HAL_SDRAM_Init &rArr; HAL_SDRAM_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
 </UL>
 
-<P><STRONG><a name="[8b]"></a>BSP_SDRAM_Initialization_sequence</STRONG> (Thumb, 144 bytes, Stack size 40 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_Initialization_sequence))
+<P><STRONG><a name="[8a]"></a>BSP_SDRAM_Initialization_sequence</STRONG> (Thumb, 144 bytes, Stack size 40 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_Initialization_sequence))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = BSP_SDRAM_Initialization_sequence &rArr; HAL_Delay
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_ProgramRefreshRate
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_ProgramRefreshRate
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
 </UL>
 
-<P><STRONG><a name="[89]"></a>BSP_SDRAM_MspInit</STRONG> (Thumb, 392 bytes, Stack size 48 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_MspInit))
+<P><STRONG><a name="[88]"></a>BSP_SDRAM_MspInit</STRONG> (Thumb, 392 bytes, Stack size 48 bytes, stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = BSP_SDRAM_MspInit &rArr; HAL_DMA_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
-<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
-<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
 </UL>
 
 <P><STRONG><a name="[4]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(.text.BusFault_Handler))
@@ -627,17 +619,17 @@ Global Symbols
 <P><STRONG><a name="[ac]"></a>FMC_SDRAM_Init</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, stm32f4xx_ll_fmc.o(.text.FMC_SDRAM_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = FMC_SDRAM_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
 </UL>
 
 <P><STRONG><a name="[ae]"></a>FMC_SDRAM_ProgramRefreshRate</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f4xx_ll_fmc.o(.text.FMC_SDRAM_ProgramRefreshRate))
-<BR><BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_ProgramRefreshRate
+<BR><BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_ProgramRefreshRate
 </UL>
 
-<P><STRONG><a name="[92]"></a>FMC_SDRAM_SendCommand</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, stm32f4xx_ll_fmc.o(.text.FMC_SDRAM_SendCommand))
+<P><STRONG><a name="[91]"></a>FMC_SDRAM_SendCommand</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, stm32f4xx_ll_fmc.o(.text.FMC_SDRAM_SendCommand))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = FMC_SDRAM_SendCommand
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_SendCommand
 </UL>
@@ -645,73 +637,72 @@ Global Symbols
 <P><STRONG><a name="[ad]"></a>FMC_SDRAM_Timing_Init</STRONG> (Thumb, 188 bytes, Stack size 20 bytes, stm32f4xx_ll_fmc.o(.text.FMC_SDRAM_Timing_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = FMC_SDRAM_Timing_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
 </UL>
 
-<P><STRONG><a name="[95]"></a>HAL_DMA2D_ConfigLayer</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_ConfigLayer))
+<P><STRONG><a name="[94]"></a>HAL_DMA2D_ConfigLayer</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_ConfigLayer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_DMA2D_ConfigLayer
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FillBuffer
 </UL>
 
-<P><STRONG><a name="[94]"></a>HAL_DMA2D_Init</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_Init))
+<P><STRONG><a name="[93]"></a>HAL_DMA2D_Init</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = HAL_DMA2D_Init &rArr; HAL_DMA2D_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_MspInit
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_MspInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FillBuffer
 </UL>
 
-<P><STRONG><a name="[98]"></a>HAL_DMA2D_MspInit</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, stm32f4xx_hal_msp.o(.text.HAL_DMA2D_MspInit))
+<P><STRONG><a name="[97]"></a>HAL_DMA2D_MspInit</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, stm32f4xx_hal_msp.o(.text.HAL_DMA2D_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = HAL_DMA2D_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
 </UL>
 
-<P><STRONG><a name="[97]"></a>HAL_DMA2D_PollForTransfer</STRONG> (Thumb, 238 bytes, Stack size 24 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_PollForTransfer))
+<P><STRONG><a name="[96]"></a>HAL_DMA2D_PollForTransfer</STRONG> (Thumb, 238 bytes, Stack size 24 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_PollForTransfer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_DMA2D_PollForTransfer
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FillBuffer
 </UL>
 
-<P><STRONG><a name="[96]"></a>HAL_DMA2D_Start</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_Start))
+<P><STRONG><a name="[95]"></a>HAL_DMA2D_Start</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.HAL_DMA2D_Start))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_DMA2D_Start &rArr; DMA2D_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA2D_SetConfig
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA2D_SetConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FillBuffer
 </UL>
 
-<P><STRONG><a name="[8e]"></a>HAL_DMA_DeInit</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, stm32f4xx_hal_dma.o(.text.HAL_DMA_DeInit))
+<P><STRONG><a name="[8d]"></a>HAL_DMA_DeInit</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, stm32f4xx_hal_dma.o(.text.HAL_DMA_DeInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_DMA_DeInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_CalcBaseAndBitshift
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_CalcBaseAndBitshift
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
 </UL>
 
-<P><STRONG><a name="[8f]"></a>HAL_DMA_Init</STRONG> (Thumb, 296 bytes, Stack size 24 bytes, stm32f4xx_hal_dma.o(.text.HAL_DMA_Init))
+<P><STRONG><a name="[8e]"></a>HAL_DMA_Init</STRONG> (Thumb, 296 bytes, Stack size 24 bytes, stm32f4xx_hal_dma.o(.text.HAL_DMA_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_DMA_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_CalcBaseAndBitshift
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_CalcBaseAndBitshift
 </UL>
-<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
 </UL>
 
-<P><STRONG><a name="[8c]"></a>HAL_Delay</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, stm32f4xx_hal.o(.text.HAL_Delay))
+<P><STRONG><a name="[8b]"></a>HAL_Delay</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, stm32f4xx_hal.o(.text.HAL_Delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_Delay
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Delay
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
+<BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Delay
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
 </UL>
 
 <P><STRONG><a name="[b3]"></a>HAL_GPIO_DeInit</STRONG> (Thumb, 232 bytes, Stack size 36 bytes, stm32f4xx_hal_gpio.o(.text.HAL_GPIO_DeInit))
@@ -724,7 +715,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
 <LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIx_Init
 </UL>
 <BR>[Address Reference Count : 3]<UL><LI> stm32f429i_discovery.o(.text.LCD_IO_Init)
@@ -737,18 +728,19 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> stm32f429i_discovery.o(.text.LCD_IO_WriteReg)
 </UL>
-<P><STRONG><a name="[93]"></a>HAL_GetTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f4xx_hal.o(.text.HAL_GetTick))
+<P><STRONG><a name="[92]"></a>HAL_GetTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f4xx_hal.o(.text.HAL_GetTick))
 <BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_SendCommand
-<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_PollForTransfer
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_PWREx_EnableOverDrive
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_SendCommand
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_PollForTransfer
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 <LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 </UL>
 
 <P><STRONG><a name="[c4]"></a>HAL_I2CEx_ConfigAnalogFilter</STRONG> (Thumb, 60 bytes, Stack size 0 bytes, stm32f4xx_hal_i2c_ex.o(.text.HAL_I2CEx_ConfigAnalogFilter))
@@ -759,123 +751,131 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[9c]"></a>HAL_I2C_Init</STRONG> (Thumb, 372 bytes, Stack size 16 bytes, stm32f4xx_hal_i2c.o(.text.HAL_I2C_Init))
+<P><STRONG><a name="[9b]"></a>HAL_I2C_Init</STRONG> (Thumb, 372 bytes, Stack size 16 bytes, stm32f4xx_hal_i2c.o(.text.HAL_I2C_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = HAL_I2C_Init &rArr; HAL_I2C_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_MspInit
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[9d]"></a>HAL_I2C_MspInit</STRONG> (Thumb, 180 bytes, Stack size 64 bytes, stm32f4xx_hal_msp.o(.text.HAL_I2C_MspInit))
+<P><STRONG><a name="[9c]"></a>HAL_I2C_MspInit</STRONG> (Thumb, 180 bytes, Stack size 64 bytes, stm32f4xx_hal_msp.o(.text.HAL_I2C_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_I2C_MspInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
 </UL>
 
 <P><STRONG><a name="[c2]"></a>HAL_IncTick</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f4xx_hal.o(.text.HAL_IncTick))
 <BR><BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 </UL>
 
-<P><STRONG><a name="[9f]"></a>HAL_Init</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f4xx_hal.o(.text.HAL_Init))
+<P><STRONG><a name="[9e]"></a>HAL_Init</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f4xx_hal.o(.text.HAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority &rArr; __NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[a1]"></a>HAL_InitTick</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f4xx_hal.o(.text.HAL_InitTick))
+<P><STRONG><a name="[a0]"></a>HAL_InitTick</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f4xx_hal.o(.text.HAL_InitTick))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_InitTick &rArr; HAL_NVIC_SetPriority &rArr; __NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
-<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
 
-<P><STRONG><a name="[87]"></a>HAL_LTDC_ConfigLayer</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_ConfigLayer))
+<P><STRONG><a name="[86]"></a>HAL_LTDC_ConfigLayer</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_ConfigLayer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_LTDC_ConfigLayer &rArr; LTDC_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LTDC_SetConfig
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LTDC_SetConfig
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
 </UL>
 
-<P><STRONG><a name="[88]"></a>HAL_LTDC_EnableDither</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_EnableDither))
-<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
+<P><STRONG><a name="[87]"></a>HAL_LTDC_EnableDither</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_EnableDither))
+<BR><BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
 </UL>
 
-<P><STRONG><a name="[84]"></a>HAL_LTDC_Init</STRONG> (Thumb, 220 bytes, Stack size 16 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_Init))
+<P><STRONG><a name="[83]"></a>HAL_LTDC_Init</STRONG> (Thumb, 220 bytes, Stack size 16 bytes, stm32f4xx_hal_ltdc.o(.text.HAL_LTDC_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_LTDC_Init &rArr; HAL_LTDC_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_MspInit
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_MspInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
 </UL>
 
-<P><STRONG><a name="[a6]"></a>HAL_LTDC_MspInit</STRONG> (Thumb, 384 bytes, Stack size 64 bytes, stm32f4xx_hal_msp.o(.text.HAL_LTDC_MspInit))
+<P><STRONG><a name="[a5]"></a>HAL_LTDC_MspInit</STRONG> (Thumb, 384 bytes, Stack size 64 bytes, stm32f4xx_hal_msp.o(.text.HAL_LTDC_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = HAL_LTDC_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
 </UL>
 
-<P><STRONG><a name="[a2]"></a>HAL_MspInit</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, stm32f4xx_hal_msp.o(.text.HAL_MspInit))
+<P><STRONG><a name="[a1]"></a>HAL_MspInit</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, stm32f4xx_hal_msp.o(.text.HAL_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
 
-<P><STRONG><a name="[91]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_EnableIRQ))
-<BR><BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
+<P><STRONG><a name="[90]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
 </UL>
 
-<P><STRONG><a name="[90]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_SetPriority))
+<P><STRONG><a name="[8f]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_SetPriority))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_NVIC_SetPriority &rArr; __NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
-</UL>
-
-<P><STRONG><a name="[a0]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_SetPriorityGrouping))
-<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_MspInit
 </UL>
 
-<P><STRONG><a name="[82]"></a>HAL_RCCEx_PeriphCLKConfig</STRONG> (Thumb, 516 bytes, Stack size 24 bytes, stm32f4xx_hal_rcc_ex.o(.text.HAL_RCCEx_PeriphCLKConfig))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_RCCEx_PeriphCLKConfig
+<P><STRONG><a name="[9f]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_NVIC_SetPriorityGrouping))
+<BR><BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+
+<P><STRONG><a name="[a7]"></a>HAL_PWREx_EnableOverDrive</STRONG> (Thumb, 112 bytes, Stack size 24 bytes, stm32f4xx_hal_pwr_ex.o(.text.HAL_PWREx_EnableOverDrive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_PWREx_EnableOverDrive
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
+</UL>
+
+<P><STRONG><a name="[81]"></a>HAL_RCCEx_PeriphCLKConfig</STRONG> (Thumb, 516 bytes, Stack size 24 bytes, stm32f4xx_hal_rcc_ex.o(.text.HAL_RCCEx_PeriphCLKConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_RCCEx_PeriphCLKConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
 </UL>
 
 <P><STRONG><a name="[a8]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 292 bytes, Stack size 24 bytes, stm32f4xx_hal_rcc.o(.text.HAL_RCC_ClockConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
-<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 
-<P><STRONG><a name="[9e]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(.text.HAL_RCC_GetPCLK1Freq))
-<BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
+<P><STRONG><a name="[9d]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(.text.HAL_RCC_GetPCLK1Freq))
+<BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
 </UL>
 
 <P><STRONG><a name="[a9]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, stm32f4xx_hal_rcc.o(.text.HAL_RCC_GetSysClockFreq))
@@ -889,12 +889,12 @@ Global Symbols
 <P><STRONG><a name="[aa]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 728 bytes, Stack size 32 bytes, stm32f4xx_hal_rcc.o(.text.HAL_RCC_OscConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_RCC_OscConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 
-<P><STRONG><a name="[8a]"></a>HAL_SDRAM_Init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f4xx_hal_sdram.o(.text.HAL_SDRAM_Init))
+<P><STRONG><a name="[89]"></a>HAL_SDRAM_Init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f4xx_hal_sdram.o(.text.HAL_SDRAM_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_SDRAM_Init &rArr; HAL_SDRAM_MspInit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_MspInit
@@ -902,29 +902,29 @@ Global Symbols
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Init
 </UL>
 
 <P><STRONG><a name="[ab]"></a>HAL_SDRAM_MspInit</STRONG> (Thumb, 232 bytes, Stack size 64 bytes, stm32f4xx_hal_msp.o(.text.HAL_SDRAM_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = HAL_SDRAM_MspInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
 </UL>
 
-<P><STRONG><a name="[8d]"></a>HAL_SDRAM_ProgramRefreshRate</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_sdram.o(.text.HAL_SDRAM_ProgramRefreshRate))
+<P><STRONG><a name="[8c]"></a>HAL_SDRAM_ProgramRefreshRate</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_sdram.o(.text.HAL_SDRAM_ProgramRefreshRate))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SDRAM_ProgramRefreshRate
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_ProgramRefreshRate
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_SDRAM_Initialization_sequence
 </UL>
 
 <P><STRONG><a name="[67]"></a>HAL_SDRAM_SendCommand</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, stm32f4xx_hal_sdram.o(.text.HAL_SDRAM_SendCommand))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_SDRAM_SendCommand &rArr; FMC_SDRAM_SendCommand
 </UL>
-<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_SendCommand
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_SDRAM_SendCommand
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> stm32f429i_discovery_sdram.o(.text.BSP_SDRAM_Initialization_sequence)
 </UL>
@@ -961,7 +961,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_SPI_MspInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
 </UL>
@@ -969,7 +969,7 @@ Global Symbols
 <P><STRONG><a name="[b4]"></a>HAL_SPI_Receive</STRONG> (Thumb, 302 bytes, Stack size 32 bytes, stm32f4xx_hal_spi.o(.text.HAL_SPI_Receive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
 </UL>
@@ -979,7 +979,7 @@ Global Symbols
 <P><STRONG><a name="[b7]"></a>HAL_SPI_Transmit</STRONG> (Thumb, 354 bytes, Stack size 32 bytes, stm32f4xx_hal_spi.o(.text.HAL_SPI_Transmit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_SPI_Transmit &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIx_Write
@@ -988,14 +988,14 @@ Global Symbols
 <P><STRONG><a name="[b6]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 468 bytes, Stack size 32 bytes, stm32f4xx_hal_spi.o(.text.HAL_SPI_TransmitReceive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 </UL>
 
-<P><STRONG><a name="[a3]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_SYSTICK_Config))
-<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<P><STRONG><a name="[a2]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(.text.HAL_SYSTICK_Config))
+<BR><BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 
 <P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(.text.HardFault_Handler))
@@ -1008,7 +1008,7 @@ Global Symbols
 <P><STRONG><a name="[b9]"></a>LCD_Delay</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f429i_discovery.o(.text.LCD_Delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = LCD_Delay &rArr; HAL_Delay
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 </UL>
 <BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ili9341_Init
 </UL>
@@ -1073,13 +1073,14 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f429xx.o(RESET)
 </UL>
-<P><STRONG><a name="[c3]"></a>SystemClock_Config</STRONG> (Thumb, 168 bytes, Stack size 144 bytes, main.o(.text.SystemClock_Config))
-<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
+<P><STRONG><a name="[c3]"></a>SystemClock_Config</STRONG> (Thumb, 172 bytes, Stack size 136 bytes, main.o(.text.SystemClock_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_PWREx_EnableOverDrive
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1139,29 +1140,28 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> ili9341.o(.text.ili9341_Init)
 </UL>
-<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 640 bytes, Stack size 104 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 320<LI>Call Chain = main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
+<P><STRONG><a name="[64]"></a>main</STRONG> (Thumb, 612 bytes, Stack size 104 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 312<LI>Call Chain = main &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 <LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
-<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
-<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
-<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SDRAM_Init
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_Init
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Init
 <LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2CEx_ConfigDigitalFilter
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2CEx_ConfigAnalogFilter
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
-<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_ConfigLayer
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_ConfigLayer
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_SetTextColor
 <LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_SelectLayer
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
-<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayStringAtLine
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_LayerDefaultInit
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Init
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayStringAt
 <LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_DisplayOn
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Clear
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
@@ -1174,16 +1174,16 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[99]"></a>DMA2D_SetConfig</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.DMA2D_SetConfig))
+<P><STRONG><a name="[98]"></a>DMA2D_SetConfig</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, stm32f4xx_hal_dma2d.o(.text.DMA2D_SetConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DMA2D_SetConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Start
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Start
 </UL>
 
-<P><STRONG><a name="[a5]"></a>LTDC_SetConfig</STRONG> (Thumb, 296 bytes, Stack size 16 bytes, stm32f4xx_hal_ltdc.o(.text.LTDC_SetConfig))
+<P><STRONG><a name="[a4]"></a>LTDC_SetConfig</STRONG> (Thumb, 296 bytes, Stack size 16 bytes, stm32f4xx_hal_ltdc.o(.text.LTDC_SetConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = LTDC_SetConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LTDC_ConfigLayer
 </UL>
 
 <P><STRONG><a name="[b5]"></a>SPI_EndRxTransaction</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, stm32f4xx_hal_spi.o(.text.SPI_EndRxTransaction))
@@ -1206,21 +1206,21 @@ Local Symbols
 <P><STRONG><a name="[c0]"></a>SPI_WaitFlagStateUntilTimeout</STRONG> (Thumb, 128 bytes, Stack size 24 bytes, stm32f4xx_hal_spi.o(.text.SPI_WaitFlagStateUntilTimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
 </UL>
 
-<P><STRONG><a name="[9a]"></a>DMA_CalcBaseAndBitshift</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, stm32f4xx_hal_dma.o(.text.DMA_CalcBaseAndBitshift))
-<BR><BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
+<P><STRONG><a name="[99]"></a>DMA_CalcBaseAndBitshift</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, stm32f4xx_hal_dma.o(.text.DMA_CalcBaseAndBitshift))
+<BR><BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_DeInit
 </UL>
 
-<P><STRONG><a name="[a7]"></a>__NVIC_SetPriority</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(.text.__NVIC_SetPriority))
+<P><STRONG><a name="[a6]"></a>__NVIC_SetPriority</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(.text.__NVIC_SetPriority))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __NVIC_SetPriority
 </UL>
-<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 </UL>
 
 <P><STRONG><a name="[be]"></a>SPIx_Error</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f429i_discovery.o(.text.SPIx_Error))
@@ -1256,10 +1256,10 @@ Local Symbols
 <P><STRONG><a name="[7c]"></a>FillBuffer</STRONG> (Thumb, 92 bytes, Stack size 32 bytes, stm32f429i_discovery_lcd.o(.text.FillBuffer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = FillBuffer &rArr; HAL_DMA2D_Start &rArr; DMA2D_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
-<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_ConfigLayer
-<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Start
-<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_PollForTransfer
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Init
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_ConfigLayer
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_Start
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_PollForTransfer
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LCD_Clear
 </UL>

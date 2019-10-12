@@ -113,22 +113,25 @@ int main(void)
 	BSP_LCD_LayerDefaultInit(LCD_FOREGROUND_LAYER, LCD_FRAME_BUFFER);
 	BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
 	BSP_LCD_DisplayOn();
-	BSP_LCD_Clear(LCD_COLOR_BLACK);
+	BSP_LCD_Clear(LCD_COLOR_WHITE);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+	BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+	//BSP_LCD_DisplayStringAtLine(1,(uint8_t*)" yesyesyes");
+	//BSP_LCD_DisplayStringAtLine(2,(uint8_t*)" nonono");
+	BSP_LCD_DisplayStringAt(0, 0, (uint8_t*)"yesyesyes", 0);
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		BSP_LCD_SetTextColor(LCD_COLOR_RED);
-		BSP_LCD_DisplayStringAtLine(1,(uint8_t*)"It's Schulich time!!!");
-		//BSP_LCD_SetTextColor(LCD_COLOR_GREEN);
-		//BSP_LCD_FillCircle(50, 50, 10);
-		HAL_Delay(1000);
-		BSP_LCD_Clear(LCD_COLOR_BLACK);
+		//BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+		//BSP_LCD_DisplayStringAtLine(1,(uint8_t*)"Schulich Time");
+	  //HAL_Delay(1000);
+		//BSP_LCD_Clear(LCD_COLOR_WHITE);
+
   }
   /* USER CODE END 3 */
 }
@@ -143,24 +146,28 @@ void SystemClock_Config(void)
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
   RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = {0};
 
-  /** Macro to configure the PLL multiplication factor 
-  */
-  __HAL_RCC_PLL_PLLM_CONFIG(16);
-  /** Macro to configure the PLL clock source 
-  */
-  __HAL_RCC_PLL_PLLSOURCE_CONFIG(RCC_PLLSOURCE_HSI);
   /** Configure the main internal regulator output voltage 
   */
   __HAL_RCC_PWR_CLK_ENABLE();
-  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE3);
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
   /** Initializes the CPU, AHB and APB busses clocks 
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 16;
+  RCC_OscInitStruct.PLL.PLLN = 360;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Activate the Over-Drive mode 
+  */
+  if (HAL_PWREx_EnableOverDrive() != HAL_OK)
   {
     Error_Handler();
   }
@@ -168,12 +175,12 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
   {
     Error_Handler();
   }
