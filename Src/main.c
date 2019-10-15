@@ -80,6 +80,8 @@ static void MX_SPI5_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+	void intToCArray(char *buf, int num);
+	int intpow(int base, int exp);
 
   /* USER CODE END 1 */
   
@@ -113,25 +115,34 @@ int main(void)
 	BSP_LCD_LayerDefaultInit(LCD_FOREGROUND_LAYER, LCD_FRAME_BUFFER);
 	BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
 	BSP_LCD_DisplayOn();
-	BSP_LCD_Clear(LCD_COLOR_WHITE);
+	BSP_LCD_Clear(LCD_COLOR_BLACK);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-	//BSP_LCD_DisplayStringAtLine(1,(uint8_t*)" yesyesyes");
-	//BSP_LCD_DisplayStringAtLine(2,(uint8_t*)" nonono");
-	BSP_LCD_DisplayStringAt(0, 0, (uint8_t*)"yesyesyes", 0);
+	BSP_LCD_SetFont(&Font24);
+	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+	BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+	char bufArr[10] = "whattheshi";
+	intToCArray(bufArr, BSP_LCD_GetXSize());
+	
+	BSP_LCD_DisplayStringAt(0, 0, (uint8_t*)"yesyesyes", LEFT_MODE);
+	BSP_LCD_DisplayStringAt(0, 30,(uint8_t*)bufArr, LEFT_MODE);
+	HAL_SetTickFreq(HAL_TICK_FREQ_100HZ);
+	BSP_LED_Init(LED3);
+	BSP_LED_Toggle(LED3);
+	BSP_LED_Init(LED4);
+	//BSP_LCD_DrawBitmap(0,0,(uint8_t *)_acSchulichRacing);
+	int i = 0;
   while (1)
   {
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
-		//BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-		//BSP_LCD_DisplayStringAtLine(1,(uint8_t*)"Schulich Time");
-	  //HAL_Delay(1000);
-		//BSP_LCD_Clear(LCD_COLOR_WHITE);
-
+		BSP_LED_Toggle(LED3);
+		BSP_LED_Toggle(LED4);
+		//BSP_LCD_DisplayStringAt(0, (i*30), (uint8_t*)"yesyesyes", LEFT_MODE);
+	  HAL_Delay(500);
+		i++;
   }
   /* USER CODE END 3 */
 }
@@ -464,6 +475,37 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+//wrong so far TODO gotta fix
+void intToCArray(char *buf, int num) {
+  int intpow(int base, int exp);
+	num = 123;
+	int result;
+    for(int i = 0; i < 10; i++) {
+			result = num % intpow(10, i);
+			if(result <= 9 && result >= 0) {
+				buf[i] = (char) (result + 48);
+			} else {
+				buf[i] = 'd';
+			}
+			num -= num % intpow(10, i);
+		}
+}
+
+int intpow(int base, int exp) {
+    int result = 1;
+    for (;;)
+    {
+        if (exp & 1)
+            result *= base;
+        exp >>= 1;
+        if (!exp)
+            break;
+        base *= base;
+    }
+
+    return result;
+}
 
 /* USER CODE END 4 */
 

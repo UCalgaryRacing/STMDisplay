@@ -575,6 +575,9 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Bitmaps/Images</GroupName>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
