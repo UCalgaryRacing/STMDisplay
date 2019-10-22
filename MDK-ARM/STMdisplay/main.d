@@ -41,4 +41,5 @@ stmdisplay/main.o: ..\Src\main.c ..\Inc\main.h \
   ..\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.h \
   ..\Drivers\BSP\STM32F429I-Discovery\..\..\..\Utilities\Fonts\fonts.h \
   ..\Drivers\BSP\STM32F429I-Discovery\..\Components\ili9341\ili9341.h \
-  ..\Drivers\BSP\STM32F429I-Discovery\..\Components\ili9341\..\Common\lcd.h
+  ..\Drivers\BSP\STM32F429I-Discovery\..\Components\ili9341\..\Common\lcd.h \
+  ..\Src\..\Bitmaps\Images\SRlogosmall.h

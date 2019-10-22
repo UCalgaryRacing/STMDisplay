@@ -56,9 +56,1655 @@ include CMakeFiles/STMDisplay.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STMDisplay.elf.dir/flags.make
 
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj: ../Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj: ../Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Adafruit_Shield\stm32_adafruit_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj: ../Drivers/BSP/Components/cs43l22/cs43l22.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\cs43l22\cs43l22.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\cs43l22\cs43l22.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\cs43l22\cs43l22.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\cs43l22\cs43l22.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\cs43l22\cs43l22.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\cs43l22\cs43l22.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj: ../Drivers/BSP/Components/exc7200/exc7200.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\exc7200\exc7200.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\exc7200\exc7200.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\exc7200\exc7200.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\exc7200\exc7200.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\exc7200\exc7200.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\exc7200\exc7200.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj: ../Drivers/BSP/Components/ft6x06/ft6x06.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ft6x06\ft6x06.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ft6x06\ft6x06.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ft6x06\ft6x06.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ft6x06\ft6x06.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ft6x06\ft6x06.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ft6x06\ft6x06.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj: ../Drivers/BSP/Components/ili9325/ili9325.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9325\ili9325.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9325\ili9325.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9325\ili9325.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9325\ili9325.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9325\ili9325.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9325\ili9325.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj: ../Drivers/BSP/Components/ili9341/ili9341.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9341\ili9341.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9341\ili9341.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9341\ili9341.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9341\ili9341.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ili9341\ili9341.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ili9341\ili9341.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj: ../Drivers/BSP/Components/l3gd20/l3gd20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\l3gd20\l3gd20.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\l3gd20\l3gd20.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\l3gd20\l3gd20.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\l3gd20\l3gd20.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\l3gd20\l3gd20.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\l3gd20\l3gd20.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj: ../Drivers/BSP/Components/lis302dl/lis302dl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis302dl\lis302dl.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis302dl\lis302dl.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis302dl\lis302dl.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis302dl\lis302dl.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis302dl\lis302dl.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis302dl\lis302dl.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj: ../Drivers/BSP/Components/lis3dsh/lis3dsh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis3dsh\lis3dsh.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis3dsh\lis3dsh.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis3dsh\lis3dsh.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis3dsh\lis3dsh.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\lis3dsh\lis3dsh.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lis3dsh\lis3dsh.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj: ../Drivers/BSP/Components/ls016b8uy/ls016b8uy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ls016b8uy\ls016b8uy.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj: ../Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\lsm303dlhc\lsm303dlhc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj: ../Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\mfxstm32l152\mfxstm32l152.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj: ../Drivers/BSP/Components/otm8009a/otm8009a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\otm8009a\otm8009a.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\otm8009a\otm8009a.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\otm8009a\otm8009a.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\otm8009a\otm8009a.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\otm8009a\otm8009a.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\otm8009a\otm8009a.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj: ../Drivers/BSP/Components/ov2640/ov2640.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ov2640\ov2640.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ov2640\ov2640.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ov2640\ov2640.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ov2640\ov2640.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ov2640\ov2640.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ov2640\ov2640.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj: ../Drivers/BSP/Components/s5k5cag/s5k5cag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\s5k5cag\s5k5cag.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\s5k5cag\s5k5cag.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\s5k5cag\s5k5cag.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\s5k5cag\s5k5cag.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\s5k5cag\s5k5cag.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\s5k5cag\s5k5cag.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj: ../Drivers/BSP/Components/st7735/st7735.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7735\st7735.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7735\st7735.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7735\st7735.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7735\st7735.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7735\st7735.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7735\st7735.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj: ../Drivers/BSP/Components/st7789h2/st7789h2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7789h2\st7789h2.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7789h2\st7789h2.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7789h2\st7789h2.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7789h2\st7789h2.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\st7789h2\st7789h2.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\st7789h2\st7789h2.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj: ../Drivers/BSP/Components/stmpe1600/stmpe1600.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe1600\stmpe1600.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe1600\stmpe1600.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe1600\stmpe1600.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe1600\stmpe1600.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe1600\stmpe1600.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe1600\stmpe1600.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj: ../Drivers/BSP/Components/stmpe811/stmpe811.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe811\stmpe811.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe811\stmpe811.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe811\stmpe811.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe811\stmpe811.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\stmpe811\stmpe811.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\stmpe811\stmpe811.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj: ../Drivers/BSP/Components/ts3510/ts3510.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ts3510\ts3510.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\ts3510\ts3510.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\ts3510\ts3510.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ts3510\ts3510.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\ts3510\ts3510.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\ts3510\ts3510.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj: ../Drivers/BSP/Components/wm8994/wm8994.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\wm8994\wm8994.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\Components\wm8994\wm8994.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\Components\wm8994\wm8994.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\wm8994\wm8994.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\Components\wm8994\wm8994.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\Components\wm8994\wm8994.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj: ../Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32412G-Discovery\stm32412g_discovery_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_camera.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_io.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_sdram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj: ../Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32446E_EVAL\stm32446e_eval_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_sdram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj: ../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I-Discovery\stm32469i_discovery_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_camera.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_io.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_nor.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sdram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_sram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj: ../Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32469I_EVAL\stm32469i_eval_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_camera.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_io.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_nor.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sdram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_sram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj: ../Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324x9I_EVAL\stm324x9i_eval_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_camera.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_io.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_sram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj: ../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM324xG_EVAL\stm324xg_eval_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj: ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj: ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_accelerometer.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj: ../Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj: ../Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj: ../Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_accelerometer.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj: ../Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj: ../Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F401-Discovery\stm32f401_discovery_gyroscope.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj: ../Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj: ../Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_accelerometer.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj: ../Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj: ../Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F411E-Discovery\stm32f411e_discovery_gyroscope.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_audio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_psram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_sd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj: ../Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F413H-Discovery\stm32f413h_discovery_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_eeprom.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_gyroscope.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_io.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_lcd.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_sdram.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj: ../Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F429I-Discovery\stm32f429i_discovery_ts.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj: ../Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj: ../Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c.obj   -c C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c > CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\BSP\STM32F4xx_Nucleo_144\stm32f4xx_nucleo_144.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f401xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f401xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f40_41xxx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f40_41xxx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f40xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f40xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f410xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f410xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f411xe.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f411xe.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f412xg.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f412xg.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f427_437xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f427_437xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f427xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f427xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f429_439xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f429_439xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f446xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f446xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f469_479xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\SW4STM32\startup_stm32f469_479xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj: ../Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TASKING\cstart_thumb2.asm.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TASKING\cstart_thumb2.asm
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f401xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f401xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f40_41xxx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f40_41xxx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f40xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f40xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f410xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f410xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f411xe.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f411xe.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f412xg.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f412xg.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f427_437xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f427_437xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f427xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f427xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f429_439xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f429_439xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f446xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f446xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f469_479xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\TrueSTUDIO\startup_stm32f469_479xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f401xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f401xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f40_41xxx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f40_41xxx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f40xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f40xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f410xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f410xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f411xe.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f411xe.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f412xg.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f412xg.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f427_437xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f427_437xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f427x.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f427x.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f429_439xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f429_439xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f446xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f446xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f469_479xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\arm\startup_stm32f469_479xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f401xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f401xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f40_41xxx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f40_41xxx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f40xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f40xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f427_437xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f427_437xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f427x.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f427x.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f429_439xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\gcc_ride7\startup_stm32f429_439xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f401xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f401xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f40_41xxx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f40_41xxx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f40xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f40xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f410xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f410xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f411xe.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f412xg.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f412xg.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f427_437xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f427_437xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f427x.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f427x.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f429_439xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f429_439xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f446xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f446xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj: ../Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building ASM object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f469_479xx.s.obj -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\iar\startup_stm32f469_479xx.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: ../Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx\Source\Templates\system_stm32f4xx.c.s
+
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -71,7 +1717,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -84,7 +1730,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cor
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -97,7 +1743,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i: cmake_force
@@ -110,7 +1756,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -123,7 +1769,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i: cmake_force
@@ -136,7 +1782,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -149,7 +1795,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -162,7 +1808,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -175,7 +1821,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -188,7 +1834,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -201,7 +1847,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpi
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -214,7 +1860,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -227,7 +1873,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i: cmake_force
@@ -240,7 +1886,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltd
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i: cmake_force
@@ -253,7 +1899,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltd
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -266,7 +1912,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -279,7 +1925,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -292,7 +1938,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -305,7 +1951,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i: cmake_force
@@ -318,7 +1964,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdr
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -331,7 +1977,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -344,7 +1990,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -357,7 +2003,7 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c
 
 CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i: cmake_force
@@ -368,9 +2014,568 @@ CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.s
 
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\misc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dfsdm.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c.s
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj: ../Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c.obj   -c C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c > CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c.i
+
+CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s"
+	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\arham\STMdisplay\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c -o CMakeFiles\STMDisplay.elf.dir\Drivers\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c.s
+
 CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Src\main.c.obj   -c C:\Users\arham\STMdisplay\Src\main.c
 
 CMakeFiles/STMDisplay.elf.dir/Src/main.c.i: cmake_force
@@ -383,7 +2588,7 @@ CMakeFiles/STMDisplay.elf.dir/Src/main.c.s: cmake_force
 
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Src\stm32f4xx_hal_msp.c.obj   -c C:\Users\arham\STMdisplay\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -396,7 +2601,7 @@ CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Src\stm32f4xx_it.c.obj   -c C:\Users\arham\STMdisplay\Src\stm32f4xx_it.c
 
 CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
@@ -409,7 +2614,7 @@ CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Src\syscalls.c.obj   -c C:\Users\arham\STMdisplay\Src\syscalls.c
 
 CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.i: cmake_force
@@ -422,7 +2627,7 @@ CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\Src\system_stm32f4xx.c.obj   -c C:\Users\arham\STMdisplay\Src\system_stm32f4xx.c
 
 CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
@@ -435,11 +2640,169 @@ CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj: CMakeFiles/STMDisplay.elf.dir/flags.make
 CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj: ../startup/startup_stm32f429xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building ASM object CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj"
 	C:\PROGRA~2\GNUTOO~1\82019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STMDisplay.elf.dir\startup\startup_stm32f429xx.s.obj -c C:\Users\arham\STMdisplay\startup\startup_stm32f429xx.s
 
 # Object files for target STMDisplay.elf
 STMDisplay_elf_OBJECTS = \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
@@ -464,6 +2827,49 @@ STMDisplay_elf_OBJECTS = \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj" \
+"CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj" \
@@ -474,6 +2880,164 @@ STMDisplay_elf_OBJECTS = \
 # External object files for target STMDisplay.elf
 STMDisplay_elf_EXTERNAL_OBJECTS =
 
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -498,6 +3062,49 @@ STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/s
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Src/main.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_hal_msp.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Src/stm32f4xx_it.c.obj
@@ -505,8 +3112,9 @@ STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Src/syscalls.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/Src/system_stm32f4xx.c.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/startup/startup_stm32f429xx.s.obj
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/build.make
+STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/objects1.rsp
 STMDisplay.elf: CMakeFiles/STMDisplay.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable STMDisplay.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arham\STMdisplay\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Linking C executable STMDisplay.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STMDisplay.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/arham/STMdisplay/cmake-build-debug/STMDisplay.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/arham/STMdisplay/cmake-build-debug/STMDisplay.bin"

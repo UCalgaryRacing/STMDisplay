@@ -122,6 +122,3354 @@ STMDisplay.elf/fast:
 	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/build
 .PHONY : STMDisplay.elf/fast
 
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.obj: Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.obj
+
+# target to build an object file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.obj
+
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.i: Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.i
+
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.s: Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c.s
+
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.obj: Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.obj
+
+# target to build an object file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.obj
+
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.i: Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.i
+
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.s: Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s
+
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s
+.PHONY : Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c.s
+
+Drivers/BSP/Components/cs43l22/cs43l22.obj: Drivers/BSP/Components/cs43l22/cs43l22.c.obj
+
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.obj
+
+# target to build an object file
+Drivers/BSP/Components/cs43l22/cs43l22.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.obj
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.c.obj
+
+Drivers/BSP/Components/cs43l22/cs43l22.i: Drivers/BSP/Components/cs43l22/cs43l22.c.i
+
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/cs43l22/cs43l22.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.i
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.c.i
+
+Drivers/BSP/Components/cs43l22/cs43l22.s: Drivers/BSP/Components/cs43l22/cs43l22.c.s
+
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/cs43l22/cs43l22.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/cs43l22/cs43l22.c.s
+.PHONY : Drivers/BSP/Components/cs43l22/cs43l22.c.s
+
+Drivers/BSP/Components/exc7200/exc7200.obj: Drivers/BSP/Components/exc7200/exc7200.c.obj
+
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.obj
+
+# target to build an object file
+Drivers/BSP/Components/exc7200/exc7200.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.obj
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.c.obj
+
+Drivers/BSP/Components/exc7200/exc7200.i: Drivers/BSP/Components/exc7200/exc7200.c.i
+
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/exc7200/exc7200.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.i
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.c.i
+
+Drivers/BSP/Components/exc7200/exc7200.s: Drivers/BSP/Components/exc7200/exc7200.c.s
+
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/exc7200/exc7200.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/exc7200/exc7200.c.s
+.PHONY : Drivers/BSP/Components/exc7200/exc7200.c.s
+
+Drivers/BSP/Components/ft6x06/ft6x06.obj: Drivers/BSP/Components/ft6x06/ft6x06.c.obj
+
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.obj
+
+# target to build an object file
+Drivers/BSP/Components/ft6x06/ft6x06.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.obj
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.c.obj
+
+Drivers/BSP/Components/ft6x06/ft6x06.i: Drivers/BSP/Components/ft6x06/ft6x06.c.i
+
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ft6x06/ft6x06.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.i
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.c.i
+
+Drivers/BSP/Components/ft6x06/ft6x06.s: Drivers/BSP/Components/ft6x06/ft6x06.c.s
+
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ft6x06/ft6x06.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ft6x06/ft6x06.c.s
+.PHONY : Drivers/BSP/Components/ft6x06/ft6x06.c.s
+
+Drivers/BSP/Components/ili9325/ili9325.obj: Drivers/BSP/Components/ili9325/ili9325.c.obj
+
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.obj
+
+# target to build an object file
+Drivers/BSP/Components/ili9325/ili9325.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.obj
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.c.obj
+
+Drivers/BSP/Components/ili9325/ili9325.i: Drivers/BSP/Components/ili9325/ili9325.c.i
+
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ili9325/ili9325.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.i
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.c.i
+
+Drivers/BSP/Components/ili9325/ili9325.s: Drivers/BSP/Components/ili9325/ili9325.c.s
+
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ili9325/ili9325.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9325/ili9325.c.s
+.PHONY : Drivers/BSP/Components/ili9325/ili9325.c.s
+
+Drivers/BSP/Components/ili9341/ili9341.obj: Drivers/BSP/Components/ili9341/ili9341.c.obj
+
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.obj
+
+# target to build an object file
+Drivers/BSP/Components/ili9341/ili9341.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.obj
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.c.obj
+
+Drivers/BSP/Components/ili9341/ili9341.i: Drivers/BSP/Components/ili9341/ili9341.c.i
+
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ili9341/ili9341.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.i
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.c.i
+
+Drivers/BSP/Components/ili9341/ili9341.s: Drivers/BSP/Components/ili9341/ili9341.c.s
+
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ili9341/ili9341.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ili9341/ili9341.c.s
+.PHONY : Drivers/BSP/Components/ili9341/ili9341.c.s
+
+Drivers/BSP/Components/l3gd20/l3gd20.obj: Drivers/BSP/Components/l3gd20/l3gd20.c.obj
+
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.obj
+
+# target to build an object file
+Drivers/BSP/Components/l3gd20/l3gd20.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.obj
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.c.obj
+
+Drivers/BSP/Components/l3gd20/l3gd20.i: Drivers/BSP/Components/l3gd20/l3gd20.c.i
+
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/l3gd20/l3gd20.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.i
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.c.i
+
+Drivers/BSP/Components/l3gd20/l3gd20.s: Drivers/BSP/Components/l3gd20/l3gd20.c.s
+
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/l3gd20/l3gd20.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/l3gd20/l3gd20.c.s
+.PHONY : Drivers/BSP/Components/l3gd20/l3gd20.c.s
+
+Drivers/BSP/Components/lis302dl/lis302dl.obj: Drivers/BSP/Components/lis302dl/lis302dl.c.obj
+
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.obj
+
+# target to build an object file
+Drivers/BSP/Components/lis302dl/lis302dl.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.obj
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.c.obj
+
+Drivers/BSP/Components/lis302dl/lis302dl.i: Drivers/BSP/Components/lis302dl/lis302dl.c.i
+
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/lis302dl/lis302dl.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.i
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.c.i
+
+Drivers/BSP/Components/lis302dl/lis302dl.s: Drivers/BSP/Components/lis302dl/lis302dl.c.s
+
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/lis302dl/lis302dl.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis302dl/lis302dl.c.s
+.PHONY : Drivers/BSP/Components/lis302dl/lis302dl.c.s
+
+Drivers/BSP/Components/lis3dsh/lis3dsh.obj: Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj
+
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.obj
+
+# target to build an object file
+Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.c.obj
+
+Drivers/BSP/Components/lis3dsh/lis3dsh.i: Drivers/BSP/Components/lis3dsh/lis3dsh.c.i
+
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/lis3dsh/lis3dsh.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.i
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.c.i
+
+Drivers/BSP/Components/lis3dsh/lis3dsh.s: Drivers/BSP/Components/lis3dsh/lis3dsh.c.s
+
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/lis3dsh/lis3dsh.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lis3dsh/lis3dsh.c.s
+.PHONY : Drivers/BSP/Components/lis3dsh/lis3dsh.c.s
+
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.obj: Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj
+
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.obj
+
+# target to build an object file
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.obj
+
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.i: Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i
+
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.i
+
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.s: Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s
+
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s
+.PHONY : Drivers/BSP/Components/ls016b8uy/ls016b8uy.c.s
+
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.obj: Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj
+
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.obj
+
+# target to build an object file
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.obj
+
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.i: Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i
+
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.i
+
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.s: Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s
+
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s
+.PHONY : Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c.s
+
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.obj: Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj
+
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.obj
+
+# target to build an object file
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.obj
+
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.i: Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i
+
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.i
+
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.s: Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s
+
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s
+.PHONY : Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c.s
+
+Drivers/BSP/Components/otm8009a/otm8009a.obj: Drivers/BSP/Components/otm8009a/otm8009a.c.obj
+
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.obj
+
+# target to build an object file
+Drivers/BSP/Components/otm8009a/otm8009a.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.obj
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.c.obj
+
+Drivers/BSP/Components/otm8009a/otm8009a.i: Drivers/BSP/Components/otm8009a/otm8009a.c.i
+
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/otm8009a/otm8009a.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.i
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.c.i
+
+Drivers/BSP/Components/otm8009a/otm8009a.s: Drivers/BSP/Components/otm8009a/otm8009a.c.s
+
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/otm8009a/otm8009a.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/otm8009a/otm8009a.c.s
+.PHONY : Drivers/BSP/Components/otm8009a/otm8009a.c.s
+
+Drivers/BSP/Components/ov2640/ov2640.obj: Drivers/BSP/Components/ov2640/ov2640.c.obj
+
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.obj
+
+# target to build an object file
+Drivers/BSP/Components/ov2640/ov2640.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.obj
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.c.obj
+
+Drivers/BSP/Components/ov2640/ov2640.i: Drivers/BSP/Components/ov2640/ov2640.c.i
+
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ov2640/ov2640.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.i
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.c.i
+
+Drivers/BSP/Components/ov2640/ov2640.s: Drivers/BSP/Components/ov2640/ov2640.c.s
+
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ov2640/ov2640.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ov2640/ov2640.c.s
+.PHONY : Drivers/BSP/Components/ov2640/ov2640.c.s
+
+Drivers/BSP/Components/s5k5cag/s5k5cag.obj: Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj
+
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.obj
+
+# target to build an object file
+Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.c.obj
+
+Drivers/BSP/Components/s5k5cag/s5k5cag.i: Drivers/BSP/Components/s5k5cag/s5k5cag.c.i
+
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/s5k5cag/s5k5cag.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.i
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.c.i
+
+Drivers/BSP/Components/s5k5cag/s5k5cag.s: Drivers/BSP/Components/s5k5cag/s5k5cag.c.s
+
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/s5k5cag/s5k5cag.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/s5k5cag/s5k5cag.c.s
+.PHONY : Drivers/BSP/Components/s5k5cag/s5k5cag.c.s
+
+Drivers/BSP/Components/st7735/st7735.obj: Drivers/BSP/Components/st7735/st7735.c.obj
+
+.PHONY : Drivers/BSP/Components/st7735/st7735.obj
+
+# target to build an object file
+Drivers/BSP/Components/st7735/st7735.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.obj
+.PHONY : Drivers/BSP/Components/st7735/st7735.c.obj
+
+Drivers/BSP/Components/st7735/st7735.i: Drivers/BSP/Components/st7735/st7735.c.i
+
+.PHONY : Drivers/BSP/Components/st7735/st7735.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/st7735/st7735.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.i
+.PHONY : Drivers/BSP/Components/st7735/st7735.c.i
+
+Drivers/BSP/Components/st7735/st7735.s: Drivers/BSP/Components/st7735/st7735.c.s
+
+.PHONY : Drivers/BSP/Components/st7735/st7735.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/st7735/st7735.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7735/st7735.c.s
+.PHONY : Drivers/BSP/Components/st7735/st7735.c.s
+
+Drivers/BSP/Components/st7789h2/st7789h2.obj: Drivers/BSP/Components/st7789h2/st7789h2.c.obj
+
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.obj
+
+# target to build an object file
+Drivers/BSP/Components/st7789h2/st7789h2.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.obj
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.c.obj
+
+Drivers/BSP/Components/st7789h2/st7789h2.i: Drivers/BSP/Components/st7789h2/st7789h2.c.i
+
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/st7789h2/st7789h2.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.i
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.c.i
+
+Drivers/BSP/Components/st7789h2/st7789h2.s: Drivers/BSP/Components/st7789h2/st7789h2.c.s
+
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/st7789h2/st7789h2.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/st7789h2/st7789h2.c.s
+.PHONY : Drivers/BSP/Components/st7789h2/st7789h2.c.s
+
+Drivers/BSP/Components/stmpe1600/stmpe1600.obj: Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj
+
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.obj
+
+# target to build an object file
+Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.c.obj
+
+Drivers/BSP/Components/stmpe1600/stmpe1600.i: Drivers/BSP/Components/stmpe1600/stmpe1600.c.i
+
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/stmpe1600/stmpe1600.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.i
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.c.i
+
+Drivers/BSP/Components/stmpe1600/stmpe1600.s: Drivers/BSP/Components/stmpe1600/stmpe1600.c.s
+
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/stmpe1600/stmpe1600.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe1600/stmpe1600.c.s
+.PHONY : Drivers/BSP/Components/stmpe1600/stmpe1600.c.s
+
+Drivers/BSP/Components/stmpe811/stmpe811.obj: Drivers/BSP/Components/stmpe811/stmpe811.c.obj
+
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.obj
+
+# target to build an object file
+Drivers/BSP/Components/stmpe811/stmpe811.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.obj
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.c.obj
+
+Drivers/BSP/Components/stmpe811/stmpe811.i: Drivers/BSP/Components/stmpe811/stmpe811.c.i
+
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/stmpe811/stmpe811.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.i
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.c.i
+
+Drivers/BSP/Components/stmpe811/stmpe811.s: Drivers/BSP/Components/stmpe811/stmpe811.c.s
+
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/stmpe811/stmpe811.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/stmpe811/stmpe811.c.s
+.PHONY : Drivers/BSP/Components/stmpe811/stmpe811.c.s
+
+Drivers/BSP/Components/ts3510/ts3510.obj: Drivers/BSP/Components/ts3510/ts3510.c.obj
+
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.obj
+
+# target to build an object file
+Drivers/BSP/Components/ts3510/ts3510.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.obj
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.c.obj
+
+Drivers/BSP/Components/ts3510/ts3510.i: Drivers/BSP/Components/ts3510/ts3510.c.i
+
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/ts3510/ts3510.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.i
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.c.i
+
+Drivers/BSP/Components/ts3510/ts3510.s: Drivers/BSP/Components/ts3510/ts3510.c.s
+
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/ts3510/ts3510.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/ts3510/ts3510.c.s
+.PHONY : Drivers/BSP/Components/ts3510/ts3510.c.s
+
+Drivers/BSP/Components/wm8994/wm8994.obj: Drivers/BSP/Components/wm8994/wm8994.c.obj
+
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.obj
+
+# target to build an object file
+Drivers/BSP/Components/wm8994/wm8994.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.obj
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.c.obj
+
+Drivers/BSP/Components/wm8994/wm8994.i: Drivers/BSP/Components/wm8994/wm8994.c.i
+
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.i
+
+# target to preprocess a source file
+Drivers/BSP/Components/wm8994/wm8994.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.i
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.c.i
+
+Drivers/BSP/Components/wm8994/wm8994.s: Drivers/BSP/Components/wm8994/wm8994.c.s
+
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.s
+
+# target to generate assembly for a file
+Drivers/BSP/Components/wm8994/wm8994.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/Components/wm8994/wm8994.c.s
+.PHONY : Drivers/BSP/Components/wm8994/wm8994.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c.s
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.obj: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.obj
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.i: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.i
+
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.s: Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s
+
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s
+.PHONY : Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c.s
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.obj: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.obj
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.i: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.i
+
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.s: Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s
+
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s
+.PHONY : Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c.s
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.obj: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.obj
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.i: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.i
+
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.s: Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s
+
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s
+.PHONY : Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c.s
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.obj: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.obj
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.i: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.i
+
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.s: Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s
+
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s
+.PHONY : Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c.s
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.obj: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.obj
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.i: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.i
+
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.s: Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s
+
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s
+.PHONY : Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c.s
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.obj: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.obj
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.i: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.i
+
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.s: Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s
+
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s
+.PHONY : Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c.s
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.obj: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.obj
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.i: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.i
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.s: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c.s
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.obj: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.obj
+
+# target to build an object file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.obj
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.i: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.i
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.s: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c.s
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.obj: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.obj
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.i: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.i
+
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.s: Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c.s
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.obj: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.obj
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.i: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.i
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.s: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c.s
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.obj: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.obj
+
+# target to build an object file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.obj
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.i: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.i
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.s: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c.s
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.obj: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.obj
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.i: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.i
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.s: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c.s
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.obj: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.obj
+
+# target to build an object file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.obj
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.i: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.i
+
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.s: Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s
+
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s
+.PHONY : Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c.s
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.obj: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.obj
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.i: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.i
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.s: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c.s
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.obj: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.obj
+
+# target to build an object file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.obj
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.i: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.i
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.s: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c.s
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.obj: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.obj
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.i: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.i
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.s: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c.s
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.obj: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.obj
+
+# target to build an object file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.obj
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.i: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.i
+
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.s: Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s
+
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s
+.PHONY : Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c.s
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.obj: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.obj
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.i: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.i
+
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.s: Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s
+
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s
+.PHONY : Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c.s
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.obj: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.obj
+
+# target to build an object file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.obj
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.i: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.i
+
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.s: Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s
+
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s
+.PHONY : Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c.s
+
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.obj: Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj
+
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.obj
+
+# target to build an object file
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.obj
+
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.i: Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i
+
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.i
+
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.s: Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s
+
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s
+.PHONY : Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c.s
+
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.obj: Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj
+
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.obj
+
+# target to build an object file
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.obj
+
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.i: Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i
+
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.i
+
+# target to preprocess a source file
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.i
+
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.s: Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s
+
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.s
+
+# target to generate assembly for a file
+Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s
+.PHONY : Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c.s
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.obj: Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.obj: Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.obj: Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.obj: Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s.obj
+
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.obj: Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.obj: Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s.obj
+
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.obj: Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.obj
+
+# target to build an object file
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.i: Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
+
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.s: Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
+
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
+.PHONY : Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -770,6 +4118,1167 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s:
 	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s
 
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.s
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.obj: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.obj
+
+# target to build an object file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.i: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.i
+
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.s: Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s
+
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s:
+	$(MAKE) -f CMakeFiles\STMDisplay.elf.dir\build.make CMakeFiles/STMDisplay.elf.dir/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s
+.PHONY : Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.s
+
 Src/main.obj: Src/main.c.obj
 
 .PHONY : Src/main.obj
@@ -923,6 +5432,378 @@ help:
 	@echo ... STMDisplay.elf
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.obj
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.i
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.s
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.obj
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.i
+	@echo ... Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.s
+	@echo ... Drivers/BSP/Components/cs43l22/cs43l22.obj
+	@echo ... Drivers/BSP/Components/cs43l22/cs43l22.i
+	@echo ... Drivers/BSP/Components/cs43l22/cs43l22.s
+	@echo ... Drivers/BSP/Components/exc7200/exc7200.obj
+	@echo ... Drivers/BSP/Components/exc7200/exc7200.i
+	@echo ... Drivers/BSP/Components/exc7200/exc7200.s
+	@echo ... Drivers/BSP/Components/ft6x06/ft6x06.obj
+	@echo ... Drivers/BSP/Components/ft6x06/ft6x06.i
+	@echo ... Drivers/BSP/Components/ft6x06/ft6x06.s
+	@echo ... Drivers/BSP/Components/ili9325/ili9325.obj
+	@echo ... Drivers/BSP/Components/ili9325/ili9325.i
+	@echo ... Drivers/BSP/Components/ili9325/ili9325.s
+	@echo ... Drivers/BSP/Components/ili9341/ili9341.obj
+	@echo ... Drivers/BSP/Components/ili9341/ili9341.i
+	@echo ... Drivers/BSP/Components/ili9341/ili9341.s
+	@echo ... Drivers/BSP/Components/l3gd20/l3gd20.obj
+	@echo ... Drivers/BSP/Components/l3gd20/l3gd20.i
+	@echo ... Drivers/BSP/Components/l3gd20/l3gd20.s
+	@echo ... Drivers/BSP/Components/lis302dl/lis302dl.obj
+	@echo ... Drivers/BSP/Components/lis302dl/lis302dl.i
+	@echo ... Drivers/BSP/Components/lis302dl/lis302dl.s
+	@echo ... Drivers/BSP/Components/lis3dsh/lis3dsh.obj
+	@echo ... Drivers/BSP/Components/lis3dsh/lis3dsh.i
+	@echo ... Drivers/BSP/Components/lis3dsh/lis3dsh.s
+	@echo ... Drivers/BSP/Components/ls016b8uy/ls016b8uy.obj
+	@echo ... Drivers/BSP/Components/ls016b8uy/ls016b8uy.i
+	@echo ... Drivers/BSP/Components/ls016b8uy/ls016b8uy.s
+	@echo ... Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.obj
+	@echo ... Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.i
+	@echo ... Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.s
+	@echo ... Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.obj
+	@echo ... Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.i
+	@echo ... Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.s
+	@echo ... Drivers/BSP/Components/otm8009a/otm8009a.obj
+	@echo ... Drivers/BSP/Components/otm8009a/otm8009a.i
+	@echo ... Drivers/BSP/Components/otm8009a/otm8009a.s
+	@echo ... Drivers/BSP/Components/ov2640/ov2640.obj
+	@echo ... Drivers/BSP/Components/ov2640/ov2640.i
+	@echo ... Drivers/BSP/Components/ov2640/ov2640.s
+	@echo ... Drivers/BSP/Components/s5k5cag/s5k5cag.obj
+	@echo ... Drivers/BSP/Components/s5k5cag/s5k5cag.i
+	@echo ... Drivers/BSP/Components/s5k5cag/s5k5cag.s
+	@echo ... Drivers/BSP/Components/st7735/st7735.obj
+	@echo ... Drivers/BSP/Components/st7735/st7735.i
+	@echo ... Drivers/BSP/Components/st7735/st7735.s
+	@echo ... Drivers/BSP/Components/st7789h2/st7789h2.obj
+	@echo ... Drivers/BSP/Components/st7789h2/st7789h2.i
+	@echo ... Drivers/BSP/Components/st7789h2/st7789h2.s
+	@echo ... Drivers/BSP/Components/stmpe1600/stmpe1600.obj
+	@echo ... Drivers/BSP/Components/stmpe1600/stmpe1600.i
+	@echo ... Drivers/BSP/Components/stmpe1600/stmpe1600.s
+	@echo ... Drivers/BSP/Components/stmpe811/stmpe811.obj
+	@echo ... Drivers/BSP/Components/stmpe811/stmpe811.i
+	@echo ... Drivers/BSP/Components/stmpe811/stmpe811.s
+	@echo ... Drivers/BSP/Components/ts3510/ts3510.obj
+	@echo ... Drivers/BSP/Components/ts3510/ts3510.i
+	@echo ... Drivers/BSP/Components/ts3510/ts3510.s
+	@echo ... Drivers/BSP/Components/wm8994/wm8994.obj
+	@echo ... Drivers/BSP/Components/wm8994/wm8994.i
+	@echo ... Drivers/BSP/Components/wm8994/wm8994.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.s
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.obj
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.i
+	@echo ... Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.s
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.obj
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.i
+	@echo ... Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.s
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.obj
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.i
+	@echo ... Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.s
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.obj
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.i
+	@echo ... Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.s
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.obj
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.i
+	@echo ... Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.s
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.obj
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.i
+	@echo ... Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.s
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.obj
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.i
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.s
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.obj
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.i
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.s
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.i
+	@echo ... Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.s
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.obj
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.i
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.s
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.obj
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.i
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.s
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.i
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.s
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.obj
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.i
+	@echo ... Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.s
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.obj
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.i
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.s
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.obj
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.i
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.s
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.i
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.s
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.obj
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.i
+	@echo ... Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.s
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.obj
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.i
+	@echo ... Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.s
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.obj
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.i
+	@echo ... Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.s
+	@echo ... Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.obj
+	@echo ... Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.i
+	@echo ... Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.s
+	@echo ... Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.obj
+	@echo ... Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.i
+	@echo ... Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.s
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.obj
+	@echo ... Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.i
+	@echo ... Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -995,6 +5876,135 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/misc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/misc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/misc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.s
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.obj
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.i
+	@echo ... Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s

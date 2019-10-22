@@ -909,13 +909,16 @@ void BSP_LCD_DrawBitmap(uint32_t X, uint32_t Y, uint8_t *pBmp)
 
   /* Read bitmap width */
   width = pBmp[18] + (pBmp[19] << 8) + (pBmp[20] << 16)  + (pBmp[21] << 24);
+	width = 100;
 
   /* Read bitmap height */
   height = pBmp[22] + (pBmp[23] << 8) + (pBmp[24] << 16)  + (pBmp[25] << 24);
-
+	height = 33;
+	
   /* Read bit/pixel */
   bitpixel = pBmp[28] + (pBmp[29] << 8);   
- 
+  bitpixel = 32;
+	
   /* Set Address */
   address = LtdcHandler.LayerCfg[ActiveLayer].FBStartAdress + (((BSP_LCD_GetXSize()*Y) + X)*(4));
 

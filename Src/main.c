@@ -24,6 +24,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stm32f429i_discovery_lcd.h"
+//#include "../Bitmaps/Images/test.h"
+#include "../Bitmaps/Images/SRlogosmall.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,7 +67,7 @@ static void MX_I2C3_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_SPI5_Init(void);
 /* USER CODE BEGIN PFP */
-
+void myDrawImage(int Ypos, int Xpos, tImage image);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -80,8 +82,6 @@ static void MX_SPI5_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	void intToCArray(char *buf, int num);
-	int intpow(int base, int exp);
 
   /* USER CODE END 1 */
   
@@ -123,26 +123,31 @@ int main(void)
 	BSP_LCD_SetFont(&Font24);
 	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
 	BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
-	char bufArr[10] = "whattheshi";
-	intToCArray(bufArr, BSP_LCD_GetXSize());
-	
-	BSP_LCD_DisplayStringAt(0, 0, (uint8_t*)"yesyesyes", LEFT_MODE);
-	BSP_LCD_DisplayStringAt(0, 30,(uint8_t*)bufArr, LEFT_MODE);
+
 	HAL_SetTickFreq(HAL_TICK_FREQ_100HZ);
 	BSP_LED_Init(LED3);
 	BSP_LED_Toggle(LED3);
 	BSP_LED_Init(LED4);
-	//BSP_LCD_DrawBitmap(0,0,(uint8_t *)_acSchulichRacing);
-	int i = 0;
+	int x = 0, y = 0;
+	int v = 1, h = 1;
   while (1)
   {
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
-		BSP_LED_Toggle(LED3);
-		BSP_LED_Toggle(LED4);
-		//BSP_LCD_DisplayStringAt(0, (i*30), (uint8_t*)"yesyesyes", LEFT_MODE);
-	  HAL_Delay(500);
-		i++;
+		if(y <= 0)
+			v = 1;
+		if(y >= 237 - SRlogosmall.height)
+			v = -1;
+		if(x <= 0)
+			h = 1;
+		if(x >= 320 - SRlogosmall.width)
+			h = -1;
+		
+		myDrawImage(x, y, SRlogosmall);
+		y += v;
+		x += h;
+	  HAL_Delay(20);
+		//BSP_LCD_Clear(LCD_COLOR_BLACK);
   }
   /* USER CODE END 3 */
 }
@@ -475,38 +480,33 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+unsigned char bytearr[4] = {0, 0, 0, 0};
 
-//wrong so far TODO gotta fix
-void intToCArray(char *buf, int num) {
-  int intpow(int base, int exp);
-	num = 123;
-	int result;
-    for(int i = 0; i < 10; i++) {
-			result = num % intpow(10, i);
-			if(result <= 9 && result >= 0) {
-				buf[i] = (char) (result + 48);
-			} else {
-				buf[i] = 'd';
-			}
-			num -= num % intpow(10, i);
+uint32_t convert16to32(uint16_t colour) {
+		
+	for (int i=0; i < 4; i++) {
+		bytearr[i] = ((colour >> i*4) & 0xF);
+	}
+
+	uint32_t long_colour = 0;
+
+	for (int i=7; i>=0; i--) {
+			long_colour = long_colour << 4;
+			//if (i % 2) 
+			long_colour = long_colour | bytearr[i/2];
+	}
+		
+  return long_colour;
+}
+
+void myDrawImage(int Ypos, int Xpos, tImage image) {
+	
+  for(int i = 0; i < image.height; i++) {
+		for(int j = 0; j < image.width; j++) {
+			BSP_LCD_DrawPixel(238 - (i + Xpos), j + Ypos, convert16to32(image.data[(i*image.width) + j]));
 		}
+	}
 }
-
-int intpow(int base, int exp) {
-    int result = 1;
-    for (;;)
-    {
-        if (exp & 1)
-            result *= base;
-        exp >>= 1;
-        if (!exp)
-            break;
-        base *= base;
-    }
-
-    return result;
-}
-
 /* USER CODE END 4 */
 
 /**

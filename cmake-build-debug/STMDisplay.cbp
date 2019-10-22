@@ -98,6 +98,858 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Adafruit_Shield/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/accelero.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/camera.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/epd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/gyro.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/idd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/magneto.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/Common/tsensor.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ampire480272/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ampire480272/ampire480272.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ampire640480/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ampire640480/ampire640480.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/cs43l22/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/cs43l22/cs43l22.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/cs43l22/cs43l22.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/exc7200/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/exc7200/exc7200.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/exc7200/exc7200.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ft6x06/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ft6x06/ft6x06.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ft6x06/ft6x06.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9325/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9325/ili9325.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9325/ili9325.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9341/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9341/ili9341.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ili9341/ili9341.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/l3gd20/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/l3gd20/l3gd20.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/l3gd20/l3gd20.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis302dl/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis302dl/lis302dl.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis302dl/lis302dl.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis3dsh/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis3dsh/lis3dsh.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lis3dsh/lis3dsh.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ls016b8uy/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ls016b8uy/ls016b8uy.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ls016b8uy/ls016b8uy.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lsm303dlhc/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/mfxstm32l152/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q128a/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q128a/n25q128a.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q256a/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q256a/n25q256a.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q512a/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/n25q512a/n25q512a.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/otm8009a/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/otm8009a/otm8009a.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/otm8009a/otm8009a.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ov2640/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ov2640/ov2640.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ov2640/ov2640.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/s25fl512s/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/s25fl512s/s25fl512s.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/s5k5cag/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/s5k5cag/s5k5cag.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/s5k5cag/s5k5cag.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7735/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7735/st7735.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7735/st7735.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7789h2/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7789h2/st7789h2.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/st7789h2/st7789h2.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe1600/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe1600/stmpe1600.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe1600/stmpe1600.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe811/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe811/stmpe811.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/stmpe811/stmpe811.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ts3510/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ts3510/ts3510.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/ts3510/ts3510.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/wm8994/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/wm8994/wm8994.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/Components/wm8994/wm8994.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/STM32412G-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32412G-Discovery/stm32412g_discovery_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/STM32446E_EVAL_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_camera.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_sdram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32446E_EVAL/stm32446e_eval_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/STM32469I-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/STM32469I_EVAL_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_camera.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_nor.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sdram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_sram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32469I_EVAL/stm32469i_eval_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/STM324x9I_EVAL_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_camera.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_nor.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sdram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_sram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324x9I_EVAL/stm324x9i_eval_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/STM324xG_EVAL_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_camera.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/STM32F4-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_accelerometer.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4-Discovery/stm32f4_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/STM32F401-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_accelerometer.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F401-Discovery/stm32f401_discovery_gyroscope.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/STM32F411E-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_accelerometer.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F411E-Discovery/stm32f411e_discovery_gyroscope.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/STM32F413H-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_audio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_psram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_sd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F413H-Discovery/stm32f413h_discovery_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/STM32F429I-Discovery_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx-Nucleo/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx-Nucleo/STM32F4xx-Nucleo_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx-Nucleo/STM32F4xx_Nucleo_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx_Nucleo_144/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx_Nucleo_144/STM32F4xx_Nucleo_144_BSP_User_Manual.chm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/arham/STMdisplay/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h">
 			<Option target="STMDisplay.elf"/>
 		</Unit>
@@ -168,6 +1020,171 @@
 			<Option target="STMDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMdisplay/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f401xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40_41xxx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f40xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f410xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f411xe.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f412xg.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427_437xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f427xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f429_439xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f446xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/SW4STM32/startup_stm32f469_479xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TASKING/cstart_thumb2.asm">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f401xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40_41xxx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f40xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f410xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f411xe.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f412xg.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427_437xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f427xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f429_439xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f446xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f469_479xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f401xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40_41xxx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f40xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f410xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f412xg.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427_437xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f427x.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f446xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/arm/startup_stm32f469_479xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f401xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427_437xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f427x.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f401xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40_41xxx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f40xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f410xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f411xe.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f412xg.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427_437xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f427x.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f429_439xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f446xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/iar/startup_stm32f469_479xx.s">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx/Source/Templates/system_stm32f4xx.c">
 			<Option target="STMDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
@@ -321,6 +1338,252 @@
 			<Option target="STMDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/Release_Notes.html">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/misc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_adc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_can.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_cec.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_crc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_cryp.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dac.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dbgmcu.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dcmi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dfsdm.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dma2d.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_dsi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_exti.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_flash.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_flash_ramfunc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fmc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fmpi2c.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_fsmc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_hash.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_iwdg.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_lptim.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_ltdc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_pwr.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_qspi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rcc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rng.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_sai.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_sdio.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spdifrx.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_syscfg.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_tim.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_usart.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_wwdg.h">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/misc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c">
+			<Option target="STMDisplay.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/arham/STMdisplay/Drivers/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c">
 			<Option target="STMDisplay.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/arham/STMdisplay/STM32F429ZITx_FLASH.ld">

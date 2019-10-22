@@ -369,7 +369,7 @@
             <TextAddressRange>0x08000000</TextAddressRange>
             <DataAddressRange>0x20000000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile></ScatterFile>
+            <ScatterFile>STMdisplay\STMdisplay.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc></Misc>
@@ -576,6 +576,18 @@
         </Group>
         <Group>
           <GroupName>Bitmaps/Images</GroupName>
+          <Files>
+            <File>
+              <FileName>test.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\test.h</FilePath>
+            </File>
+            <File>
+              <FileName>SRlogosmall.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\SRlogosmall.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
