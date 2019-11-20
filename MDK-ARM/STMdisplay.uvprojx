@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F429xx,USE_HAL_DRIVER,STM32F429xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;              ../Drivers/STM32F4xx_HAL_Driver/Inc;              ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;              ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;              ../Drivers/CMSIS/Include;              ..\Drivers\BSP\STM32F429I-Discovery</IncludePath>
+              <IncludePath>../Inc;                 ../Drivers/STM32F4xx_HAL_Driver/Inc;                 ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;                 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;                 ../Drivers/CMSIS/Include;                 ..\Drivers\BSP\STM32F429I-Discovery</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,6 +412,16 @@
         <Group>
           <GroupName>Drivers/STM32F4xx_HAL_Driver</GroupName>
           <Files>
+            <File>
+              <FileName>stm32f4xx_hal_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_adc_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c</FilePath>
+            </File>
             <File>
               <FileName>stm32f4xx_hal_dma2d.c</FileName>
               <FileType>1</FileType>
@@ -586,6 +596,36 @@
               <FileName>SRlogosmall.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Bitmaps\Images\SRlogosmall.h</FilePath>
+            </File>
+            <File>
+              <FileName>Helvetica.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Helvetica.h</FilePath>
+            </File>
+            <File>
+              <FileName>Retron 2000.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Retron 2000.h</FilePath>
+            </File>
+            <File>
+              <FileName>Helvetica abc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Helvetica abc.h</FilePath>
+            </File>
+            <File>
+              <FileName>Helvetica num.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Helvetica num.h</FilePath>
+            </File>
+            <File>
+              <FileName>Retron 2000 abc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Retron 2000 abc.h</FilePath>
+            </File>
+            <File>
+              <FileName>Retron 2000 num.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Bitmaps\Images\Retron 2000 num.h</FilePath>
             </File>
           </Files>
         </Group>

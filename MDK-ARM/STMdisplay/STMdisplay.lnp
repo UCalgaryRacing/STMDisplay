@@ -3,6 +3,8 @@
 "stmdisplay\main.o"
 "stmdisplay\stm32f4xx_it.o"
 "stmdisplay\stm32f4xx_hal_msp.o"
+"stmdisplay\stm32f4xx_hal_adc.o"
+"stmdisplay\stm32f4xx_hal_adc_ex.o"
 "stmdisplay\stm32f4xx_hal_dma2d.o"
 "stmdisplay\stm32f4xx_ll_fmc.o"
 "stmdisplay\stm32f4xx_hal_sdram.o"

@@ -26,6 +26,9 @@
 #include "stm32f429i_discovery_lcd.h"
 //#include "../Bitmaps/Images/test.h"
 #include "../Bitmaps/Images/SRlogosmall.h"
+#include "../Bitmaps/Images/Retron 2000.h"
+#include <stdbool.h> 
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,6 +47,8 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc1;
+
 DMA2D_HandleTypeDef hdma2d;
 
 I2C_HandleTypeDef hi2c3;
@@ -66,13 +71,18 @@ static void MX_FMC_Init(void);
 static void MX_I2C3_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_SPI5_Init(void);
+static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
 void myDrawImage(int Ypos, int Xpos, tImage image);
+void myDrawImageBit(int Ypos, int Xpos, fImage image);
+void dvdThing(int *v, int *h, int *x, int *y);
+uint32_t value;
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc1);
+char *utoa(uint32_t num, char *str, int radix);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
 /* USER CODE END 0 */
 
 /**
@@ -109,6 +119,7 @@ int main(void)
   MX_I2C3_Init();
   MX_LTDC_Init();
   MX_SPI5_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
 	BSP_LCD_Init();
 	BSP_LCD_LayerDefaultInit(LCD_BACKGROUND_LAYER, LCD_FRAME_BUFFER);
@@ -120,7 +131,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	BSP_LCD_SetFont(&Font24);
+	//BSP_LCD_SetFont(&Font24);
 	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
 	BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
 
@@ -130,24 +141,71 @@ int main(void)
 	BSP_LED_Init(LED4);
 	int x = 0, y = 0;
 	int v = 1, h = 1;
+	uint32_t val;
+	HAL_ADC_ConvCpltCallback(&hadc1);
+	char str[20];
+	char mode = 'd';
+	char prevMode = '0';
   while (1)
   {
+		BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
+		//BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+		//BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
     /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
-		if(y <= 0)
-			v = 1;
-		if(y >= 237 - SRlogosmall.height)
-			v = -1;
-		if(x <= 0)
-			h = 1;
-		if(x >= 320 - SRlogosmall.width)
-			h = -1;
 		
-		myDrawImage(x, y, SRlogosmall);
-		y += v;
-		x += h;
-	  HAL_Delay(20);
-		//BSP_LCD_Clear(LCD_COLOR_BLACK);
+		//If we are switching screens, draw the new screen
+
+		if (mode != prevMode) {
+			prevMode = mode;
+			//BSP_LCD_Clear(LCD_COLOR_BLACK);
+			if     (val < 10) {
+				mode = 'd';
+			}
+			else if(val < 27) {
+				mode = 's';
+			}
+			else if( val < 55) {
+				mode = 'p';
+			}
+			else if(val < 90) {
+				mode = 'e';
+			}
+			else if(val < 1000) {
+				mode = 'a';
+			}
+			else {
+				BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
+				BSP_LCD_SetTextColor(LCD_COLOR_ORANGE);
+				BSP_LCD_FillRect(30, 30, 100, 200);
+				mode = 'b';
+			}
+		}
+		//Otherwise only draw the numbers
+		else {
+		if (val < 10) {
+				mode = 'd';
+			}
+			else if(val < 27) {
+				mode = 's';
+			}
+			else if( val < 55) {
+				mode = 'p';
+			}
+			else if(val < 90) {
+				mode = 'e';
+			}
+			else if(val < 1000) {
+				mode = 'a';
+			}
+			else {
+				mode = 'b';
+			}
+		}
+		myDrawImageBit(30, 30, Retron2000);
+		val = value;
+		HAL_Delay(10);
   }
   /* USER CODE END 3 */
 }
@@ -208,6 +266,56 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
+
+  /* USER CODE BEGIN ADC1_Init 0 */
+
+  /* USER CODE END ADC1_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC1_Init 1 */
+
+  /* USER CODE END ADC1_Init 1 */
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
+  */
+  hadc1.Instance = ADC1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
+  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc1.Init.ScanConvMode = DISABLE;
+  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.DMAContinuousRequests = DISABLE;
+  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
+  */
+  sConfig.Channel = ADC_CHANNEL_1;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC1_Init 2 */
+
+  /* USER CODE END ADC1_Init 2 */
+
 }
 
 /**
@@ -480,7 +588,21 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-unsigned char bytearr[4] = {0, 0, 0, 0};
+uint16_t bytearr[4];
+
+void dvdThing(int *v, int *h, int *x, int *y) {
+	if(*y <= 0)
+			*v = 1;
+		if(*y >= 237 - SRlogosmall.height)
+			*v = -1;
+		if(*x <= 0)
+			*h = 1;
+		if(*x >= 320 - SRlogosmall.width)
+			*h = -1;
+	myDrawImage(*x, *y, SRlogosmall);
+		*y += *v;
+		*x += *h;
+}
 
 uint32_t convert16to32(uint16_t colour) {
 		
@@ -499,13 +621,70 @@ uint32_t convert16to32(uint16_t colour) {
   return long_colour;
 }
 
-void myDrawImage(int Ypos, int Xpos, tImage image) {
-	
+
+void myDrawImageBit(int Ypos, int Xpos, fImage image) {
+	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
   for(int i = 0; i < image.height; i++) {
 		for(int j = 0; j < image.width; j++) {
-			BSP_LCD_DrawPixel(238 - (i + Xpos), j + Ypos, convert16to32(image.data[(i*image.width) + j]));
+			if(image.data[(i*image.width) + j])
+				BSP_LCD_DrawPixel(i + Xpos, 320 - (j + Ypos), 0xffffffff);
+			else 
+				BSP_LCD_DrawPixel(i + Xpos, 320 - (j + Ypos), 0x00000000);
 		}
 	}
+}
+
+void myDrawImage(int Ypos, int Xpos, tImage image) {
+	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
+  for(int i = 0; i < image.height; i++) {
+		for(int j = 0; j < image.width; j++) {
+			BSP_LCD_DrawPixel(i + Xpos, 320 - (j + Ypos), convert16to32(image.data[(i*image.width) + j]));
+		}
+	}
+}
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc1) {
+    value = HAL_ADC_GetValue(hadc1);
+    HAL_ADC_Start_IT(hadc1); // Re-Start ADC1 under Interrupt
+                             // this is necessary because we don'use
+                             // the Continuous Conversion Mode
+}
+
+/*******************************************************
+* Code contributed by Chris Takahashi,                 *
+* ctakahashi (at) users (dot) sourceforge (dot) net.   *
+* See stdlib.h for licence.                            *
+* $Date: 2005/08/31 11:39:47 $                         *
+*******************************************************/
+
+char *utoa(uint32_t num, char *str, int radix) {
+    char temp[17];  //an int can only be 16 bits long
+                    //at radix 2 (binary) the string
+                    //is at most 16 + 1 null long.
+    int temp_loc = 0;
+    int digit;
+    int str_loc = 0;
+
+    //construct a backward string of the number.
+    do {
+        digit = (uint32_t)num % radix;
+        if (digit < 10) 
+            temp[temp_loc++] = digit + '0';
+        else
+            temp[temp_loc++] = digit - 10 + 'A';
+        (num) /= radix;
+    } while ((uint32_t)num > 0);
+
+    temp_loc--;
+
+
+    //now reverse the string.
+    while ( temp_loc >=0 ) {// while there are still chars
+        str[str_loc++] = temp[temp_loc--];    
+    }
+    str[str_loc] = 0; // add null termination.
+
+    return str;
 }
 /* USER CODE END 4 */
 
