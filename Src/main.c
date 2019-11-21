@@ -24,10 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stm32f429i_discovery_lcd.h"
-//#include "../Bitmaps/Images/test.h"
 #include "../Bitmaps/Images/SRlogosmall.h"
-#include "../Bitmaps/Images/Retron 2000.h"
-#include <stdbool.h> 
 
 /* USER CODE END Includes */
 
@@ -74,7 +71,7 @@ static void MX_SPI5_Init(void);
 static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
 void myDrawImage(int Ypos, int Xpos, tImage image);
-void myDrawImageBit(int Ypos, int Xpos, fImage image);
+//void myDrawImageBit(int Ypos, int Xpos, fImage image);
 void dvdThing(int *v, int *h, int *x, int *y);
 uint32_t value;
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc1);
@@ -146,11 +143,12 @@ int main(void)
 	char str[20];
 	char mode = 'd';
 	char prevMode = '0';
+	//BSP_LCD_SetFont(Font24);
   while (1)
   {
 		BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
-		//BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
-		//BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+		BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+		BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -161,6 +159,29 @@ int main(void)
 			prevMode = mode;
 			//BSP_LCD_Clear(LCD_COLOR_BLACK);
 			if     (val < 10) {
+				BSP_LCD_DisplayStringAt(0,   0, (uint8_t *) "WT TP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "Oil TP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "Oil PR:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(66,  0, (uint8_t *) "MAP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(88,  0, (uint8_t *) "AFR:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(110, 0, (uint8_t *) "EXH:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(132, 0, (uint8_t *) "RMP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(154, 0, (uint8_t *) "WP1:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(176, 0, (uint8_t *) "WP2:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(198, 0, (uint8_t *) "FAN1:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(220, 0, (uint8_t *) "FAN2:", LEFT_MODE);
+				
+				BSP_LCD_DisplayStringAt(0,   150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22,  150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(44,  150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(66,  150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(88,  150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(110, 150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(132, 150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(154, 150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(176, 150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(198, 150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(220, 150, (uint8_t *) "12345", LEFT_MODE);
 				mode = 'd';
 			}
 			else if(val < 27) {
@@ -203,7 +224,6 @@ int main(void)
 				mode = 'b';
 			}
 		}
-		myDrawImageBit(30, 30, Retron2000);
 		val = value;
 		HAL_Delay(10);
   }
@@ -621,7 +641,7 @@ uint32_t convert16to32(uint16_t colour) {
   return long_colour;
 }
 
-
+/*
 void myDrawImageBit(int Ypos, int Xpos, fImage image) {
 	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
   for(int i = 0; i < image.height; i++) {
@@ -633,7 +653,7 @@ void myDrawImageBit(int Ypos, int Xpos, fImage image) {
 		}
 	}
 }
-
+*/
 void myDrawImage(int Ypos, int Xpos, tImage image) {
 	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
   for(int i = 0; i < image.height; i++) {

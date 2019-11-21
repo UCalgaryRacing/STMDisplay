@@ -595,7 +595,7 @@ void BSP_LCD_ClearStringLine(uint32_t Line)
 void BSP_LCD_DisplayChar(uint16_t Xpos, uint16_t Ypos, uint8_t Ascii)
 {
   DrawChar(Xpos, Ypos, &DrawProp[ActiveLayer].pFont->table[(Ascii-' ') *\
-              DrawProp[ActiveLayer].pFont->Height * ((DrawProp[ActiveLayer].pFont->Width + 7) / 8)]);
+		DrawProp[ActiveLayer].pFont->Height * ((DrawProp[ActiveLayer].pFont->Width + 7) / 8)]);
 }
 
 /**
@@ -609,7 +609,7 @@ void BSP_LCD_DisplayChar(uint16_t Xpos, uint16_t Ypos, uint8_t Ascii)
   *                @arg RIGHT_MODE
   *                @arg LEFT_MODE   
   */
-void BSP_LCD_DisplayStringAt(uint16_t X, uint16_t Y, uint8_t *pText, Text_AlignModeTypdef mode)
+void BSP_LCD_DisplayStringAt(uint16_t Y, uint16_t X, uint8_t *pText, Text_AlignModeTypdef mode)
 {
   uint16_t refcolumn = 1, i = 0;
   uint32_t size = 0, xsize = 0; 
@@ -1320,7 +1320,7 @@ void BSP_LCD_DrawPixel(uint16_t Xpos, uint16_t Ypos, uint32_t RGB_Code)
   * @param  Ypos: start column address
   * @param  c: pointer to the character data
   */
-static void DrawChar(uint16_t Xpos, uint16_t Ypos, const uint8_t *c)
+static void DrawChar(uint16_t Ypos, uint16_t Xpos, const uint8_t *c)
 {
   uint32_t i = 0, j = 0;
   uint16_t height, width;
@@ -1355,16 +1355,16 @@ static void DrawChar(uint16_t Xpos, uint16_t Ypos, const uint8_t *c)
 
     for (j = 0; j < width; j++)
     {
-      if(line & (1 << (width- j + offset- 1))) 
+      if(line & (1 << (width - j + offset - 1))) 
       {
-        BSP_LCD_DrawPixel((Xpos + j), Ypos, DrawProp[ActiveLayer].TextColor);
+        BSP_LCD_DrawPixel(240 - (Xpos + i), (Ypos + j), DrawProp[ActiveLayer].TextColor);
       }
       else
       {
-        BSP_LCD_DrawPixel((Xpos + j), Ypos, DrawProp[ActiveLayer].BackColor);
+        BSP_LCD_DrawPixel(240 - (Xpos + i), (Ypos + j), DrawProp[ActiveLayer].BackColor);
       } 
     }
-    Ypos++;
+    //Ypos++;
   }
 }
 
