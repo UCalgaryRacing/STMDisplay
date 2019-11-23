@@ -44,4 +44,5 @@ stmdisplay/main.o: ..\Src\main.c ..\Inc\main.h \
   ..\Drivers\BSP\STM32F429I-Discovery\..\..\..\Utilities\Fonts\fonts.h \
   ..\Drivers\BSP\STM32F429I-Discovery\..\Components\ili9341\ili9341.h \
   ..\Drivers\BSP\STM32F429I-Discovery\..\Components\ili9341\..\Common\lcd.h \
-  ..\Src\..\Bitmaps\Images\SRlogosmall.h
+  ..\Src\..\Bitmaps\Images\SRlogosmall.h \
+  ..\Src\..\Bitmaps\Images\Retron\ 2000\ num.h

@@ -1357,11 +1357,11 @@ static void DrawChar(uint16_t Ypos, uint16_t Xpos, const uint8_t *c)
     {
       if(line & (1 << (width - j + offset - 1))) 
       {
-        BSP_LCD_DrawPixel(240 - (Xpos + i), (Ypos + j), DrawProp[ActiveLayer].TextColor);
+        BSP_LCD_DrawPixel((Xpos + i), 320 - (Ypos + j), DrawProp[ActiveLayer].TextColor);
       }
       else
       {
-        BSP_LCD_DrawPixel(240 - (Xpos + i), (Ypos + j), DrawProp[ActiveLayer].BackColor);
+        BSP_LCD_DrawPixel((Xpos + i), 320 -  (Ypos + j), DrawProp[ActiveLayer].BackColor);
       } 
     }
     //Ypos++;

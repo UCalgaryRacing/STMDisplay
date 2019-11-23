@@ -25,6 +25,7 @@
 /* USER CODE BEGIN Includes */
 #include "stm32f429i_discovery_lcd.h"
 #include "../Bitmaps/Images/SRlogosmall.h"
+#include "../Bitmaps/Images/Retron 2000 num.h"
 
 /* USER CODE END Includes */
 
@@ -71,7 +72,7 @@ static void MX_SPI5_Init(void);
 static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
 void myDrawImage(int Ypos, int Xpos, tImage image);
-//void myDrawImageBit(int Ypos, int Xpos, fImage image);
+void myDrawImageBit(int Ypos, int Xpos, fImage image);
 void dvdThing(int *v, int *h, int *x, int *y);
 uint32_t value;
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc1);
@@ -128,7 +129,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	//BSP_LCD_SetFont(&Font24);
+	BSP_LCD_SetFont(&Font24);
 	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
 	BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
 
@@ -143,7 +144,6 @@ int main(void)
 	char str[20];
 	char mode = 'd';
 	char prevMode = '0';
-	BSP_LCD_SetFont(&Font24);
 	int iter = 0x0;
   while (1)
   {
@@ -158,25 +158,28 @@ int main(void)
 		if (mode != prevMode) {
 			prevMode = mode;
 			BSP_LCD_Clear(LCD_COLOR_BLACK);
-			if     (val < 25) {
-				
-				BSP_LCD_SetFont(&Font24);
+			if     (val < 15) {
+				dvdThing(&v, &h, &x, &y);
+				mode = 'x';
+			}
+			else if(val < 40) {
 				BSP_LCD_DisplayStringAt(0,  0,   (uint8_t *) "WT TP", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(50, 0,   (uint8_t *) "SPEED", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(0,  210, (uint8_t *) "OIL TP", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(50, 210, (uint8_t *) "OIL PR", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(100, 120, (uint8_t *) "RPM", LEFT_MODE);
 				
-				BSP_LCD_SetFont(&Font24);
 				BSP_LCD_DisplayStringAt(72, 210, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(22, 210, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(72, 0,   (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(22, 0,   (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(122, 100, (uint8_t *) "123456", LEFT_MODE);
 				
+				myDrawImageBit(100, 150, Retron2000num);
+				
 				mode = 'd';
 			}
-			else if(val < 50) {
+			else if( val < 150) {	
 				BSP_LCD_DisplayStringAt(0,   0, (uint8_t *) "RR:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "RL:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "FR:", LEFT_MODE);
@@ -196,10 +199,12 @@ int main(void)
 				BSP_LCD_DisplayStringAt(132, 150, (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(154, 150, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(176, 150, (uint8_t *) "12345", LEFT_MODE);
+			
 				mode = 's';
 			}
-			else if( val < 180) {
-				BSP_LCD_DisplayStringAt(0,   0, (uint8_t *) "WT TP:", LEFT_MODE);
+			
+			else if( val < 300) {	
+				BSP_LCD_DisplayStringAt(2,   0, (uint8_t *) "WT TP:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "OIL TP:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "OIL PR:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(66,  0, (uint8_t *) "MAP:", LEFT_MODE);
@@ -211,7 +216,7 @@ int main(void)
 				BSP_LCD_DisplayStringAt(198, 0, (uint8_t *) "FAN1:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(220, 0, (uint8_t *) "FAN2:", LEFT_MODE);
 				
-				BSP_LCD_DisplayStringAt(0,   150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(2,   150, (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(22,  150, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(44,  150, (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(66,  150, (uint8_t *) "67890", LEFT_MODE);
@@ -222,58 +227,56 @@ int main(void)
 				BSP_LCD_DisplayStringAt(176, 150, (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(198, 150, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(220, 150, (uint8_t *) "12345", LEFT_MODE);
+				
 				mode = 'p';
 			}
+			
 			else {
+				mode = 'a';
+			}
+		}
+		//Otherwise only draw the numbers
+		else {
+		if (val < 15) {
+			dvdThing(&v, &h, &x, &y);
+			mode = 'x';
+		}
+		else if(val < 40) {
+			mode = 'd';
+		}
+		else if( val < 150) {
+			mode = 's';
+		}
+		else if( val < 300) {
+			mode = 'p';
+		}
+		else {
+			for(int i = 0; i < 6; i++) {
 				BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
 				BSP_LCD_Clear(LCD_COLOR_BLACK);
 				BSP_LCD_SetTextColor(LCD_COLOR_RED);
 				BSP_LCD_FillRect(50, 30, 140, 260);
 				BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
 				BSP_LCD_SetBackColor(LCD_COLOR_RED);
-				BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
-				mode = 'b';
-			}
-		}
-		//Otherwise only draw the numbers
-		else {
-		if (val < 25) {
-				mode = 'd';
-			}
-			else if(val < 50) {
-				mode = 's';
-			}
-			else if( val < 180) {
-				mode = 'p';
-			}
-			else {
-				for(int i = 0; i < 6; i++) {
-					HAL_Delay(500);
-					BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
-					BSP_LCD_Clear(LCD_COLOR_BLACK);
-					BSP_LCD_SetTextColor(LCD_COLOR_RED);
-					BSP_LCD_FillRect(50, 30, 140, 260);
-					BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-					BSP_LCD_SetBackColor(LCD_COLOR_RED);
-					BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTe!", LEFT_MODE);
 					
-					HAL_Delay(500);
-					BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
-					BSP_LCD_Clear(LCD_COLOR_RED);
-					BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-					BSP_LCD_FillRect(50, 30, 140, 260);
-					BSP_LCD_SetTextColor(LCD_COLOR_RED);
-					BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
-					BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
-				}
-
-				mode = 'b';
+				HAL_Delay(500);
+				BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
+				BSP_LCD_Clear(LCD_COLOR_RED);
+				BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+				BSP_LCD_FillRect(50, 30, 140, 260);
+				BSP_LCD_SetTextColor(LCD_COLOR_RED);
+				BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+				BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "SO VERY H0TE!!", LEFT_MODE);
+				HAL_Delay(500);
+				mode = 'a';
 			}
 		}
 		val = value;
-		HAL_Delay(10);
+		HAL_Delay(15);
   }
   /* USER CODE END 3 */
+	}
 }
 
 /**
@@ -687,7 +690,6 @@ uint32_t convert16to32(uint16_t colour) {
   return long_colour;
 }
 
-/*
 void myDrawImageBit(int Ypos, int Xpos, fImage image) {
 	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
   for(int i = 0; i < image.height; i++) {
@@ -699,7 +701,7 @@ void myDrawImageBit(int Ypos, int Xpos, fImage image) {
 		}
 	}
 }
-*/
+
 void myDrawImage(int Ypos, int Xpos, tImage image) {
 	BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
   for(int i = 0; i < image.height; i++) {
