@@ -143,7 +143,8 @@ int main(void)
 	char str[20];
 	char mode = 'd';
 	char prevMode = '0';
-	//BSP_LCD_SetFont(Font24);
+	BSP_LCD_SetFont(&Font24);
+	int iter = 0x0;
   while (1)
   {
 		BSP_LCD_SelectLayer(LCD_BACKGROUND_LAYER);
@@ -154,14 +155,53 @@ int main(void)
     /* USER CODE BEGIN 3 */
 		
 		//If we are switching screens, draw the new screen
-
 		if (mode != prevMode) {
 			prevMode = mode;
-			//BSP_LCD_Clear(LCD_COLOR_BLACK);
-			if     (val < 10) {
+			BSP_LCD_Clear(LCD_COLOR_BLACK);
+			if     (val < 25) {
+				
+				BSP_LCD_SetFont(&Font24);
+				BSP_LCD_DisplayStringAt(0,  0,   (uint8_t *) "WT TP", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(50, 0,   (uint8_t *) "SPEED", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(0,  210, (uint8_t *) "OIL TP", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(50, 210, (uint8_t *) "OIL PR", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(100, 120, (uint8_t *) "RPM", LEFT_MODE);
+				
+				BSP_LCD_SetFont(&Font24);
+				BSP_LCD_DisplayStringAt(72, 210, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22, 210, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(72, 0,   (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22, 0,   (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(122, 100, (uint8_t *) "123456", LEFT_MODE);
+				
+				mode = 'd';
+			}
+			else if(val < 50) {
+				BSP_LCD_DisplayStringAt(0,   0, (uint8_t *) "RR:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "RL:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "FR:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(66,  0, (uint8_t *) "FL:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(88,  0, (uint8_t *) "FB:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(110, 0, (uint8_t *) "RB", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(132, 0, (uint8_t *) "FBP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(154, 0, (uint8_t *) "BBP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(176, 0, (uint8_t *) "STR ANG:", LEFT_MODE);
+				
+				BSP_LCD_DisplayStringAt(0,   150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22,  150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(44,  150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(66,  150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(88,  150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(110, 150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(132, 150, (uint8_t *) "12345", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(154, 150, (uint8_t *) "67890", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(176, 150, (uint8_t *) "12345", LEFT_MODE);
+				mode = 's';
+			}
+			else if( val < 180) {
 				BSP_LCD_DisplayStringAt(0,   0, (uint8_t *) "WT TP:", LEFT_MODE);
-				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "Oil TP:", LEFT_MODE);
-				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "Oil PR:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(22,  0, (uint8_t *) "OIL TP:", LEFT_MODE);
+				BSP_LCD_DisplayStringAt(44,  0, (uint8_t *) "OIL PR:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(66,  0, (uint8_t *) "MAP:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(88,  0, (uint8_t *) "AFR:", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(110, 0, (uint8_t *) "EXH:", LEFT_MODE);
@@ -182,45 +222,51 @@ int main(void)
 				BSP_LCD_DisplayStringAt(176, 150, (uint8_t *) "12345", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(198, 150, (uint8_t *) "67890", LEFT_MODE);
 				BSP_LCD_DisplayStringAt(220, 150, (uint8_t *) "12345", LEFT_MODE);
-				mode = 'd';
-			}
-			else if(val < 27) {
-				mode = 's';
-			}
-			else if( val < 55) {
 				mode = 'p';
-			}
-			else if(val < 90) {
-				mode = 'e';
-			}
-			else if(val < 1000) {
-				mode = 'a';
 			}
 			else {
 				BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
-				BSP_LCD_SetTextColor(LCD_COLOR_ORANGE);
-				BSP_LCD_FillRect(30, 30, 100, 200);
+				BSP_LCD_Clear(LCD_COLOR_BLACK);
+				BSP_LCD_SetTextColor(LCD_COLOR_RED);
+				BSP_LCD_FillRect(50, 30, 140, 260);
+				BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+				BSP_LCD_SetBackColor(LCD_COLOR_RED);
+				BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
 				mode = 'b';
 			}
 		}
 		//Otherwise only draw the numbers
 		else {
-		if (val < 10) {
+		if (val < 25) {
 				mode = 'd';
 			}
-			else if(val < 27) {
+			else if(val < 50) {
 				mode = 's';
 			}
-			else if( val < 55) {
+			else if( val < 180) {
 				mode = 'p';
 			}
-			else if(val < 90) {
-				mode = 'e';
-			}
-			else if(val < 1000) {
-				mode = 'a';
-			}
 			else {
+				for(int i = 0; i < 6; i++) {
+					HAL_Delay(500);
+					BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
+					BSP_LCD_Clear(LCD_COLOR_BLACK);
+					BSP_LCD_SetTextColor(LCD_COLOR_RED);
+					BSP_LCD_FillRect(50, 30, 140, 260);
+					BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+					BSP_LCD_SetBackColor(LCD_COLOR_RED);
+					BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
+					
+					HAL_Delay(500);
+					BSP_LCD_SelectLayer(LCD_FOREGROUND_LAYER);
+					BSP_LCD_Clear(LCD_COLOR_RED);
+					BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+					BSP_LCD_FillRect(50, 30, 140, 260);
+					BSP_LCD_SetTextColor(LCD_COLOR_RED);
+					BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+					BSP_LCD_DisplayStringAt(110, 50, (uint8_t *) "OIL TOO HOTTT!", LEFT_MODE);
+				}
+
 				mode = 'b';
 			}
 		}
