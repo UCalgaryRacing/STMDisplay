@@ -12,5 +12,6 @@ This repository was created by [Schulich Racing](https://www.schulichracing.ca/)
 - [LCD Image Converter](https://github.com/riuson/lcd-image-converter)
 -  [STemWin](https://www.st.com/en/embedded-software/stemwin.html)
 - [Getting started with STemWin library](https://www.st.com/content/ccc/resource/technical/document/application_note/54/c9/95/42/8c/0b/43/69/DM00089670.pdf/files/DM00089670.pdf/jcr:content/translations/en.DM00089670.pdf)
+-Adding the [BSP Library](https://community.st.com/s/question/0D50X0000AtidTbSQI/how-to-add-bsp-library-cubemxide)
 > This project was configured by following this [YouTube tutorial.](https://www.youtube.com/watch?v=u_TVAudWabI)
 > Happy coding!
